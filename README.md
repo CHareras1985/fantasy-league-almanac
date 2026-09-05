@@ -1,5 +1,7 @@
 # Fantasy League Almanac
 
+**Live:** https://fantasy-league-almanac-ten.vercel.app
+
 The season-long fantasy football league (Yahoo, since 2009), turned into a
 permanent record + per-season story book. See
 [`fantasy-league-project-brief.md`](../Simple%20Picks/fantasy-league-project-brief.md)
