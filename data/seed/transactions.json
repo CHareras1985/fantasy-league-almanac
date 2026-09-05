@@ -1,0 +1,764 @@
+[
+  {
+    "season": 2009,
+    "manager": "tony",
+    "player": "Brent Celek",
+    "player_points": 145.1
+  },
+  {
+    "season": 2009,
+    "manager": "costa",
+    "player": "Rashard Mendenhall",
+    "player_points": 175.9
+  },
+  {
+    "season": 2009,
+    "manager": "wally",
+    "player": "Felix Jones",
+    "player_points": 92.4
+  },
+  {
+    "season": 2009,
+    "manager": "paul",
+    "player": "Roy Williams",
+    "player_points": 98.6
+  },
+  {
+    "season": 2009,
+    "manager": "fernando",
+    "player": "Justin Forsett",
+    "player_points": 121.9
+  },
+  {
+    "season": 2009,
+    "manager": "george",
+    "player": "Steve Smith",
+    "player_points": 164.7
+  },
+  {
+    "season": 2009,
+    "manager": "dean",
+    "player": "Mike Sims-Walker",
+    "player_points": 124.9
+  },
+  {
+    "season": 2009,
+    "manager": "fink",
+    "player": "Ray Rice",
+    "player_points": 243.1
+  },
+  {
+    "season": 2009,
+    "manager": "marcil",
+    "player": "Julius Jones",
+    "player_points": 113.5
+  },
+  {
+    "season": 2010,
+    "manager": "costa",
+    "player": "Brandon Lloyd",
+    "player_points": 209.0
+  },
+  {
+    "season": 2010,
+    "manager": "marcil",
+    "player": "BenJarvus Green-Ellis",
+    "player_points": 187.3
+  },
+  {
+    "season": 2010,
+    "manager": "wally",
+    "player": "Knowshon Moreno",
+    "player_points": 156.1
+  },
+  {
+    "season": 2010,
+    "manager": "paul",
+    "player": "Felix Jones",
+    "player_points": 133.0
+  },
+  {
+    "season": 2010,
+    "manager": "george",
+    "player": "Michael Vick",
+    "player_points": 305.32
+  },
+  {
+    "season": 2010,
+    "manager": "tony",
+    "player": "Peyton Hillis",
+    "player_points": 225.92
+  },
+  {
+    "season": 2010,
+    "manager": "dean",
+    "player": "Pierre Garcon",
+    "player_points": 115.0
+  },
+  {
+    "season": 2010,
+    "manager": "fink",
+    "player": "Mercedes Lewis",
+    "player_points": 124.0
+  },
+  {
+    "season": 2010,
+    "manager": "fernando",
+    "player": "Mike Williams",
+    "player_points": 155.0
+  },
+  {
+    "season": 2011,
+    "manager": "george",
+    "player": "Cam Newton",
+    "player_points": 381.34
+  },
+  {
+    "season": 2011,
+    "manager": "paul",
+    "player": "Marshawn Lynch",
+    "player_points": 212.6
+  },
+  {
+    "season": 2011,
+    "manager": "tony",
+    "player": "Victor Cruz",
+    "player_points": 204.9
+  },
+  {
+    "season": 2011,
+    "manager": "costa",
+    "player": "Joe Flacco",
+    "player_points": 203.4
+  },
+  {
+    "season": 2011,
+    "manager": "dean",
+    "player": "Mark Sanchez",
+    "player_points": 245.26
+  },
+  {
+    "season": 2011,
+    "manager": "fernando",
+    "player": "Tim Tebow",
+    "player_points": 102.16
+  },
+  {
+    "season": 2011,
+    "manager": "wally",
+    "player": "Laurent Robinson",
+    "player_points": 150.8
+  },
+  {
+    "season": 2011,
+    "manager": "marcil",
+    "player": "Torrey Smith",
+    "player_points": 129.0
+  },
+  {
+    "season": 2011,
+    "manager": "fink",
+    "player": "Dez Bryant",
+    "player_points": 144.3
+  },
+  {
+    "season": 2012,
+    "manager": "dean",
+    "player": "Randall Cobb",
+    "player_points": 160.6
+  },
+  {
+    "season": 2012,
+    "manager": "marcil",
+    "player": "James Jones",
+    "player_points": 162.4
+  },
+  {
+    "season": 2012,
+    "manager": "fernando",
+    "player": "T.Y. Hilton",
+    "player_points": 137.0
+  },
+  {
+    "season": 2012,
+    "manager": "tony",
+    "player": "Lance Moore",
+    "player_points": 140.1
+  },
+  {
+    "season": 2012,
+    "manager": "chris",
+    "player": "Brandon Myers",
+    "player_points": 104.6
+  },
+  {
+    "season": 2012,
+    "manager": "wally",
+    "player": "Mikel Leshoure",
+    "player_points": 146.2
+  },
+  {
+    "season": 2012,
+    "manager": "paul",
+    "player": "Andre Roberts",
+    "player_points": 107.8
+  },
+  {
+    "season": 2012,
+    "manager": "george",
+    "player": "Anquan Boldin",
+    "player_points": 118.4
+  },
+  {
+    "season": 2012,
+    "manager": "costa",
+    "player": "Dennis Pitta",
+    "player_points": 108.9
+  },
+  {
+    "season": 2012,
+    "manager": "fink",
+    "player": "Donnie Avery",
+    "player_points": 96.0
+  },
+  {
+    "season": 2013,
+    "manager": "paul",
+    "player": "Michael Floyd",
+    "player_points": 167.6
+  },
+  {
+    "season": 2013,
+    "manager": "fernando",
+    "player": "Josh Gordon",
+    "player_points": 275.9
+  },
+  {
+    "season": 2013,
+    "manager": "costa",
+    "player": "Nick Foles",
+    "player_points": 258.24
+  },
+  {
+    "season": 2013,
+    "manager": "marcil",
+    "player": "Marvin Jones Jr.",
+    "player_points": 163.2
+  },
+  {
+    "season": 2013,
+    "manager": "tony",
+    "player": "Reggie Bush",
+    "player_points": 208.2
+  },
+  {
+    "season": 2013,
+    "manager": "dean",
+    "player": "Andy Dalton",
+    "player_points": 284.14
+  },
+  {
+    "season": 2013,
+    "manager": "fink",
+    "player": "Carson Palmer",
+    "player_points": 211.76
+  },
+  {
+    "season": 2013,
+    "manager": "chris",
+    "player": "Montee Ball",
+    "player_points": 95.4
+  },
+  {
+    "season": 2013,
+    "manager": "wally",
+    "player": "Zac Stacey",
+    "player_points": 170.4
+  },
+  {
+    "season": 2013,
+    "manager": "george",
+    "player": "Philip Rivers",
+    "player_points": 283.92
+  },
+  {
+    "season": 2014,
+    "manager": "fernando",
+    "player": "Odell Beckham Jr.",
+    "player_points": 253.5
+  },
+  {
+    "season": 2014,
+    "manager": "george",
+    "player": "Colby Fleener",
+    "player_points": 151.9
+  },
+  {
+    "season": 2014,
+    "manager": "fink",
+    "player": "Jeremy Hill",
+    "player_points": 196.4
+  },
+  {
+    "season": 2014,
+    "manager": "wally",
+    "player": "DeAndre Hopkins",
+    "player_points": 194.0
+  },
+  {
+    "season": 2014,
+    "manager": "costa",
+    "player": "Greg Jennings",
+    "player_points": 138.7
+  },
+  {
+    "season": 2014,
+    "manager": "chris",
+    "player": "Mark Ingram",
+    "player_points": 175.4
+  },
+  {
+    "season": 2014,
+    "manager": "dean",
+    "player": "Joe Flacco",
+    "player_points": 258.94
+  },
+  {
+    "season": 2014,
+    "manager": "paul",
+    "player": "Jeremy Maclin",
+    "player_points": 237.3
+  },
+  {
+    "season": 2014,
+    "manager": "marcil",
+    "player": "Eli Manning",
+    "player_points": 267.0
+  },
+  {
+    "season": 2014,
+    "manager": "tony",
+    "player": "Ryan Tannehill",
+    "player_points": 272.0
+  },
+  {
+    "season": 2015,
+    "manager": "tony",
+    "player": "Tom Brady",
+    "player_points": 340.2
+  },
+  {
+    "season": 2015,
+    "manager": "marcil",
+    "player": "Philip Rivers",
+    "player_points": 278.98
+  },
+  {
+    "season": 2015,
+    "manager": "dean",
+    "player": "Drew Brees",
+    "player_points": 302.2
+  },
+  {
+    "season": 2015,
+    "manager": "fernando",
+    "player": "Blake Bortles",
+    "player_points": 305.12
+  },
+  {
+    "season": 2015,
+    "manager": "george",
+    "player": "Lamar Miller",
+    "player_points": 210.4
+  },
+  {
+    "season": 2015,
+    "manager": "matt",
+    "player": "Eli Manning",
+    "player_points": 283.54
+  },
+  {
+    "season": 2015,
+    "manager": "wally",
+    "player": "Cam Newton",
+    "player_points": 389.58
+  },
+  {
+    "season": 2015,
+    "manager": "fink",
+    "player": "Ryan Fitzpatrick",
+    "player_points": 282.7
+  },
+  {
+    "season": 2015,
+    "manager": "chris",
+    "player": "Joe Flacco",
+    "player_points": 158.44
+  },
+  {
+    "season": 2015,
+    "manager": "costa",
+    "player": "Julio Jones",
+    "player_points": 307.1
+  },
+  {
+    "season": 2016,
+    "manager": "wally",
+    "player": "Isaiah Crowell",
+    "player_points": 186.1
+  },
+  {
+    "season": 2016,
+    "manager": "fernando",
+    "player": "Philip Rivers",
+    "player_points": 255.44
+  },
+  {
+    "season": 2016,
+    "manager": "fink",
+    "player": "Matthew Stafford",
+    "player_points": 278.78
+  },
+  {
+    "season": 2016,
+    "manager": "marcil",
+    "player": "Andy Dalton",
+    "player_points": 256.64
+  },
+  {
+    "season": 2016,
+    "manager": "george",
+    "player": "Antonio Brown",
+    "player_points": 254.3
+  },
+  {
+    "season": 2016,
+    "manager": "costa",
+    "player": "Matt Ryan",
+    "player_points": 346.46
+  },
+  {
+    "season": 2016,
+    "manager": "dean",
+    "player": "Ezekiel Elliott",
+    "player_points": 308.4
+  },
+  {
+    "season": 2016,
+    "manager": "matt",
+    "player": "Bilal Powell",
+    "player_points": 168.0
+  },
+  {
+    "season": 2016,
+    "manager": "tony",
+    "player": "Terrelle Pryor Sr.",
+    "player_points": 173.94
+  },
+  {
+    "season": 2016,
+    "manager": "chris",
+    "player": "Cameron Brate",
+    "player_points": 141.5
+  },
+  {
+    "season": 2017,
+    "manager": "chris",
+    "player": "Robby Anderson",
+    "player_points": 202.2
+  },
+  {
+    "season": 2017,
+    "manager": "tony",
+    "player": "Le'Veon Bell",
+    "player_points": 341.1
+  },
+  {
+    "season": 2017,
+    "manager": "george",
+    "player": "Marvin Jones Jr.",
+    "player_points": 210.5
+  },
+  {
+    "season": 2017,
+    "manager": "matt",
+    "player": "Alex Smith",
+    "player_points": 308.68
+  },
+  {
+    "season": 2017,
+    "manager": "dean",
+    "player": "Drew Brees",
+    "player_points": 249.06
+  },
+  {
+    "season": 2017,
+    "manager": "marcil",
+    "player": "Philip Rivers",
+    "player_points": 245.42
+  },
+  {
+    "season": 2017,
+    "manager": "fernando",
+    "player": "Devin Funchess",
+    "player_points": 182.2
+  },
+  {
+    "season": 2017,
+    "manager": "wally",
+    "player": "Kirk Cousins",
+    "player_points": 268.6
+  },
+  {
+    "season": 2017,
+    "manager": "mike",
+    "player": "Alvin Kamara",
+    "player_points": 291.6
+  },
+  {
+    "season": 2017,
+    "manager": "costa",
+    "player": "Case Keenum",
+    "player_points": 233.32
+  },
+  {
+    "season": 2018,
+    "manager": "dean",
+    "player": "Andrew Luck",
+    "player_points": 326.42
+  },
+  {
+    "season": 2018,
+    "manager": "matt",
+    "player": "Patrick Mahomes",
+    "player_points": 423.58
+  },
+  {
+    "season": 2018,
+    "manager": "mike",
+    "player": "Ezekiel Elliott",
+    "player_points": 324.1
+  },
+  {
+    "season": 2018,
+    "manager": "fink",
+    "player": "Tarik Cohen",
+    "player_points": 236.44
+  },
+  {
+    "season": 2018,
+    "manager": "george",
+    "player": "Todd Gurley II",
+    "player_points": 372.6
+  },
+  {
+    "season": 2018,
+    "manager": "costa",
+    "player": "Tevin Coleman",
+    "player_points": 193.6
+  },
+  {
+    "season": 2018,
+    "manager": "fernando",
+    "player": "TJ Yeldon",
+    "player_points": 173.1
+  },
+  {
+    "season": 2018,
+    "manager": "marcil",
+    "player": "Corey Davis",
+    "player_points": 184.6
+  },
+  {
+    "season": 2018,
+    "manager": "chris",
+    "player": "George Kittle",
+    "player_points": 264.7
+  },
+  {
+    "season": 2018,
+    "manager": "tony",
+    "player": "Mike Evans",
+    "player_points": 295.4
+  },
+  {
+    "season": 2019,
+    "manager": "mike",
+    "player": "Lamar Jackson",
+    "player_points": 418.68
+  },
+  {
+    "season": 2019,
+    "manager": "george",
+    "player": "Russell Wilson",
+    "player_points": 329.6
+  },
+  {
+    "season": 2019,
+    "manager": "dean",
+    "player": "Tom Brady",
+    "player_points": 263.68
+  },
+  {
+    "season": 2019,
+    "manager": "tony",
+    "player": "Dak Prescott",
+    "player_points": 348.78
+  },
+  {
+    "season": 2019,
+    "manager": "marcil",
+    "player": "Mike Gesicki",
+    "player_points": 136.0
+  },
+  {
+    "season": 2019,
+    "manager": "matt",
+    "player": "Jameis Winston",
+    "player_points": 300.86
+  },
+  {
+    "season": 2019,
+    "manager": "fernando",
+    "player": "DeVante Parker",
+    "player_points": 250.72
+  },
+  {
+    "season": 2019,
+    "manager": "fink",
+    "player": "Nick Chubb",
+    "player_points": 257.2
+  },
+  {
+    "season": 2019,
+    "manager": "chris",
+    "player": "Kyler Murray",
+    "player_points": 287.28
+  },
+  {
+    "season": 2019,
+    "manager": "costa",
+    "player": "Josh Allen",
+    "player_points": 283.06
+  },
+  {
+    "season": 2020,
+    "manager": "marcil",
+    "player": "Curtis Samuel",
+    "player_points": 211.6
+  },
+  {
+    "season": 2020,
+    "manager": "tony",
+    "player": "Tom Brady",
+    "player_points": 340.92
+  },
+  {
+    "season": 2020,
+    "manager": "fernando",
+    "player": "Justin Herbert",
+    "player_points": 336.84
+  },
+  {
+    "season": 2020,
+    "manager": "dean",
+    "player": "Chase Claypool",
+    "player_points": 214.9
+  },
+  {
+    "season": 2020,
+    "manager": "matt",
+    "player": "Tee Higgins",
+    "player_points": 195.602
+  },
+  {
+    "season": 2020,
+    "manager": "george",
+    "player": "Mike Davis",
+    "player_points": 206.5
+  },
+  {
+    "season": 2020,
+    "manager": "mike",
+    "player": "Aaron Rodgers",
+    "player_points": 393.26
+  },
+  {
+    "season": 2020,
+    "manager": "fink",
+    "player": "D'Andre Swift",
+    "player_points": 188.8
+  },
+  {
+    "season": 2020,
+    "manager": "costa",
+    "player": "Ryan Tannehill",
+    "player_points": 351.78
+  },
+  {
+    "season": 2020,
+    "manager": "chris",
+    "player": "Nyheim Hines",
+    "player_points": 193.2
+  },
+  {
+    "season": 2021,
+    "manager": "fink",
+    "player": "Javonte Williams",
+    "player_points": 204.4
+  },
+  {
+    "season": 2021,
+    "manager": "tony",
+    "player": "Hunter Renfrow",
+    "player_points": 259.6
+  },
+  {
+    "season": 2021,
+    "manager": "george",
+    "player": "Amon-Ra St. Brown",
+    "player_points": 227.3
+  },
+  {
+    "season": 2021,
+    "manager": "costa",
+    "player": "Cordarrelle Patterson",
+    "player_points": 235.6
+  },
+  {
+    "season": 2021,
+    "manager": "matt",
+    "player": "Darrel Williams",
+    "player_points": 196.0
+  },
+  {
+    "season": 2021,
+    "manager": "marcil",
+    "player": "Sony Michel",
+    "player_points": 146.3
+  },
+  {
+    "season": 2021,
+    "manager": "dean",
+    "player": "Melvin Gordon III",
+    "player_points": 199.1
+  },
+  {
+    "season": 2021,
+    "manager": "mike",
+    "player": "AJ Dillon",
+    "player_points": 185.1
+  },
+  {
+    "season": 2021,
+    "manager": "chris",
+    "player": "Rob Gronkowski",
+    "player_points": 171.7
+  },
+  {
+    "season": 2021,
+    "manager": "fernando",
+    "player": "Brandon Aiyuk",
+    "player_points": 170.8
+  }
+]

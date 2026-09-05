@@ -1,0 +1,57 @@
+[
+  {
+    "key": "playoff_champion",
+    "points": 5,
+    "label": "Playoff Champion"
+  },
+  {
+    "key": "playoff_runner_up",
+    "points": 4,
+    "label": "Playoff Runner-up"
+  },
+  {
+    "key": "reg_season_1st",
+    "points": 4,
+    "label": "Regular Season 1st"
+  },
+  {
+    "key": "playoff_third",
+    "points": 3,
+    "label": "Playoff 3rd Place"
+  },
+  {
+    "key": "reg_season_2nd",
+    "points": 3,
+    "label": "Regular Season 2nd"
+  },
+  {
+    "key": "most_points",
+    "points": 3,
+    "label": "Most PTS Scored"
+  },
+  {
+    "key": "longest_streak",
+    "points": 3,
+    "label": "Longest Win Streak"
+  },
+  {
+    "key": "reg_season_3rd",
+    "points": 2,
+    "label": "Regular Season 3rd"
+  },
+  {
+    "key": "mvp_pick",
+    "points": 2,
+    "label": "M.V.P. Pick"
+  },
+  {
+    "key": "best_transaction",
+    "points": 2,
+    "label": "Best Transaction"
+  },
+  {
+    "key": "winning_season",
+    "points": 1,
+    "label": "Winning Season"
+  }
+]

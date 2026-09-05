@@ -1,0 +1,891 @@
+[
+  {
+    "season": 2009,
+    "position": "QB",
+    "player": "Aaron Rodgers",
+    "player_points": 339.96,
+    "manager": "costa"
+  },
+  {
+    "season": 2009,
+    "position": "RB 1",
+    "player": "Chris Johnson",
+    "player_points": 339.9,
+    "manager": "fernando"
+  },
+  {
+    "season": 2009,
+    "position": "RB 2",
+    "player": "Adrian Peterson",
+    "player_points": 270.9,
+    "manager": "paul"
+  },
+  {
+    "season": 2009,
+    "position": "WR 1",
+    "player": "Andre Johnson",
+    "player_points": 212.9,
+    "manager": "costa"
+  },
+  {
+    "season": 2009,
+    "position": "WR 2",
+    "player": "Randy Moss",
+    "player_points": 202.4,
+    "manager": "fernando"
+  },
+  {
+    "season": 2009,
+    "position": "WR 3",
+    "player": "DeSean Jackson",
+    "player_points": 198.4,
+    "manager": "george"
+  },
+  {
+    "season": 2009,
+    "position": "TE",
+    "player": "Vernon Davis",
+    "player_points": 174.5,
+    "manager": "paul"
+  },
+  {
+    "season": 2009,
+    "position": "W/R/T",
+    "player": "Maurice Jones-Drew",
+    "player_points": 268.5,
+    "manager": "tony"
+  },
+  {
+    "season": 2009,
+    "position": "K",
+    "player": "David Akers",
+    "player_points": 108.0,
+    "manager": "dean"
+  },
+  {
+    "season": 2009,
+    "position": "DEF",
+    "player": "San Francisco",
+    "player_points": 181.0,
+    "manager": "costa"
+  },
+  {
+    "season": 2010,
+    "position": "QB",
+    "player": "Aaron Rodgers",
+    "player_points": 311.48,
+    "manager": "costa"
+  },
+  {
+    "season": 2010,
+    "position": "RB 1",
+    "player": "Arian Foster",
+    "player_points": 323.0,
+    "manager": "costa"
+  },
+  {
+    "season": 2010,
+    "position": "RB 2",
+    "player": "Adrian Peterson",
+    "player_points": 238.9,
+    "manager": "marcil"
+  },
+  {
+    "season": 2010,
+    "position": "WR 1",
+    "player": "Brandon Lloyd",
+    "player_points": 209.0,
+    "manager": "costa"
+  },
+  {
+    "season": 2010,
+    "position": "WR 2",
+    "player": "Dwayne Bowe",
+    "player_points": 205.6,
+    "manager": "dean"
+  },
+  {
+    "season": 2010,
+    "position": "WR 3",
+    "player": "Roddy White",
+    "player_points": 200.2,
+    "manager": "dean"
+  },
+  {
+    "season": 2010,
+    "position": "TE",
+    "player": "Jason Witten",
+    "player_points": 153.2,
+    "manager": "george"
+  },
+  {
+    "season": 2010,
+    "position": "W/R/T",
+    "player": "Jamaal Charles",
+    "player_points": 234.5,
+    "manager": "wally"
+  },
+  {
+    "season": 2010,
+    "position": "K",
+    "player": "Sebastian Janikowski",
+    "player_points": 117.0,
+    "manager": "paul"
+  },
+  {
+    "season": 2010,
+    "position": "DEF",
+    "player": "Pittsburgh",
+    "player_points": 189.0,
+    "manager": "tony"
+  },
+  {
+    "season": 2011,
+    "position": "QB",
+    "player": "Drew Brees",
+    "player_points": 404.64,
+    "manager": "tony"
+  },
+  {
+    "season": 2011,
+    "position": "RB 1",
+    "player": "Ray Rice",
+    "player_points": 294.84,
+    "manager": "fernando"
+  },
+  {
+    "season": 2011,
+    "position": "RB 2",
+    "player": "LeSean McCoy",
+    "player_points": 279.4,
+    "manager": "chris"
+  },
+  {
+    "season": 2011,
+    "position": "WR 1",
+    "player": "Calvin Johnson",
+    "player_points": 262.2,
+    "manager": "fink"
+  },
+  {
+    "season": 2011,
+    "position": "WR 2",
+    "player": "Jordy Nelson",
+    "player_points": 216.3,
+    "manager": "paul"
+  },
+  {
+    "season": 2011,
+    "position": "WR 3",
+    "player": "Wes Welker",
+    "player_points": 213.9,
+    "manager": "chris"
+  },
+  {
+    "season": 2011,
+    "position": "TE",
+    "player": "Rob Gronkowski",
+    "player_points": 240.9,
+    "manager": "costa"
+  },
+  {
+    "season": 2011,
+    "position": "W/R/T",
+    "player": "Maurice Jones-Drew",
+    "player_points": 256.0,
+    "manager": "marcil"
+  },
+  {
+    "season": 2011,
+    "position": "K",
+    "player": "David Akers",
+    "player_points": 128.56,
+    "manager": "paul"
+  },
+  {
+    "season": 2011,
+    "position": "DEF",
+    "player": "San Francisco",
+    "player_points": 186.0,
+    "manager": "fink"
+  },
+  {
+    "season": 2012,
+    "position": "QB",
+    "player": "Aaron Rodgers",
+    "player_points": 346.6,
+    "manager": "costa"
+  },
+  {
+    "season": 2012,
+    "position": "RB 1",
+    "player": "Adrian Peterson",
+    "player_points": 303.4,
+    "manager": "tony"
+  },
+  {
+    "season": 2012,
+    "position": "RB 2",
+    "player": "Doug Martin",
+    "player_points": 261.6,
+    "manager": "dean"
+  },
+  {
+    "season": 2012,
+    "position": "WR 1",
+    "player": "Calvin Johnson",
+    "player_points": 217.4,
+    "manager": "tony"
+  },
+  {
+    "season": 2012,
+    "position": "WR 2",
+    "player": "Brandon Marshall",
+    "player_points": 214.6,
+    "manager": "wally"
+  },
+  {
+    "season": 2012,
+    "position": "WR 3",
+    "player": "Dez Bryant",
+    "player_points": 205.7,
+    "manager": "marcil"
+  },
+  {
+    "season": 2012,
+    "position": "TE",
+    "player": "Jimmy Graham",
+    "player_points": 151.2,
+    "manager": "paul"
+  },
+  {
+    "season": 2012,
+    "position": "W/R/T",
+    "player": "Arian Foster",
+    "player_points": 259.1,
+    "manager": "dean"
+  },
+  {
+    "season": 2012,
+    "position": "K",
+    "player": "Stephen Gostkowski",
+    "player_points": 129.0,
+    "manager": "dean"
+  },
+  {
+    "season": 2012,
+    "position": "DEF",
+    "player": "Chicago",
+    "player_points": 226.0,
+    "manager": "dean"
+  },
+  {
+    "season": 2013,
+    "position": "QB",
+    "player": "Peyton Manning",
+    "player_points": 399.98,
+    "manager": "chris"
+  },
+  {
+    "season": 2013,
+    "position": "RB 1",
+    "player": "Jamaal Charles",
+    "player_points": 341.0,
+    "manager": "dean"
+  },
+  {
+    "season": 2013,
+    "position": "RB 2",
+    "player": "LeSean McCoy",
+    "player_points": 306.6,
+    "manager": "costa"
+  },
+  {
+    "season": 2013,
+    "position": "WR 1",
+    "player": "Josh Gordon",
+    "player_points": 275.9,
+    "manager": "fernando"
+  },
+  {
+    "season": 2013,
+    "position": "WR 2",
+    "player": "Demaryius Thomas",
+    "player_points": 274.0,
+    "manager": "costa"
+  },
+  {
+    "season": 2013,
+    "position": "WR 3",
+    "player": "Calvin Johnson",
+    "player_points": 263.2,
+    "manager": "tony"
+  },
+  {
+    "season": 2013,
+    "position": "TE",
+    "player": "Jimmy Graham",
+    "player_points": 264.5,
+    "manager": "fernando"
+  },
+  {
+    "season": 2013,
+    "position": "W/R/T",
+    "player": "Matt Forte",
+    "player_points": 300.3,
+    "manager": "marcil"
+  },
+  {
+    "season": 2013,
+    "position": "K",
+    "player": "Matt Prater",
+    "player_points": 139.0,
+    "manager": "paul"
+  },
+  {
+    "season": 2013,
+    "position": "DEF",
+    "player": "Seattle",
+    "player_points": 218.0,
+    "manager": "marcil"
+  },
+  {
+    "season": 2014,
+    "position": "QB",
+    "player": "Aaron Rodgers",
+    "player_points": 350.64,
+    "manager": "marcil"
+  },
+  {
+    "season": 2014,
+    "position": "RB 1",
+    "player": "Le'Veon Bell",
+    "player_points": 329.0,
+    "manager": "fernando"
+  },
+  {
+    "season": 2014,
+    "position": "RB 2",
+    "player": "DeMarco Murray",
+    "player_points": 322.6,
+    "manager": "wally"
+  },
+  {
+    "season": 2014,
+    "position": "WR 1",
+    "player": "Antonio Brown",
+    "player_points": 326.4,
+    "manager": "paul"
+  },
+  {
+    "season": 2014,
+    "position": "WR 2",
+    "player": "Demaryius Thomas",
+    "player_points": 287.4,
+    "manager": "costa"
+  },
+  {
+    "season": 2014,
+    "position": "WR 3",
+    "player": "Jordy Nelson",
+    "player_points": 285.9,
+    "manager": "wally"
+  },
+  {
+    "season": 2014,
+    "position": "TE",
+    "player": "Rob Gronkowski",
+    "player_points": 226.4,
+    "manager": "fink"
+  },
+  {
+    "season": 2014,
+    "position": "W/R/T",
+    "player": "Matt Forte",
+    "player_points": 295.6,
+    "manager": "chris"
+  },
+  {
+    "season": 2014,
+    "position": "K",
+    "player": "Stephen Gostkowski",
+    "player_points": 123.0,
+    "manager": "george"
+  },
+  {
+    "season": 2014,
+    "position": "DEF",
+    "player": "Buffalo",
+    "player_points": 186.08,
+    "manager": "paul"
+  },
+  {
+    "season": 2015,
+    "position": "QB",
+    "player": "Cam Newton",
+    "player_points": 389.58,
+    "manager": "wally"
+  },
+  {
+    "season": 2015,
+    "position": "RB 1",
+    "player": "Devonta Freeman",
+    "player_points": 278.9,
+    "manager": "tony"
+  },
+  {
+    "season": 2015,
+    "position": "RB 2",
+    "player": "Adrian Peterson",
+    "player_points": 244.7,
+    "manager": "matt"
+  },
+  {
+    "season": 2015,
+    "position": "WR 1",
+    "player": "Antonio Brown",
+    "player_points": 322.2,
+    "manager": "george"
+  },
+  {
+    "season": 2015,
+    "position": "WR 2",
+    "player": "Julio Jones",
+    "player_points": 307.1,
+    "manager": "costa"
+  },
+  {
+    "season": 2015,
+    "position": "WR 3",
+    "player": "Brandon Marshall",
+    "player_points": 284.7,
+    "manager": "marcil"
+  },
+  {
+    "season": 2015,
+    "position": "TE",
+    "player": "Rob Gronkowski",
+    "player_points": 221.6,
+    "manager": "marcil"
+  },
+  {
+    "season": 2015,
+    "position": "W/R/T",
+    "player": "DeAndre Hopkins",
+    "player_points": 275.6,
+    "manager": "matt"
+  },
+  {
+    "season": 2015,
+    "position": "K",
+    "player": "Stephen Gostkowski",
+    "player_points": 132.0,
+    "manager": "tony"
+  },
+  {
+    "season": 2015,
+    "position": "DEF",
+    "player": "Denver",
+    "player_points": 188.0,
+    "manager": "fernando"
+  },
+  {
+    "season": 2016,
+    "position": "QB",
+    "player": "Aaron Rodgers",
+    "player_points": 376.52,
+    "manager": "dean"
+  },
+  {
+    "season": 2016,
+    "position": "RB 1",
+    "player": "David Johnson",
+    "player_points": 366.8,
+    "manager": "wally"
+  },
+  {
+    "season": 2016,
+    "position": "RB 2",
+    "player": "Ezekiel Elliott",
+    "player_points": 308.4,
+    "manager": "dean"
+  },
+  {
+    "season": 2016,
+    "position": "WR 1",
+    "player": "Jordy Nelson",
+    "player_points": 256.2,
+    "manager": "fernando"
+  },
+  {
+    "season": 2016,
+    "position": "WR 2",
+    "player": "Antonio Brown",
+    "player_points": 254.3,
+    "manager": "george"
+  },
+  {
+    "season": 2016,
+    "position": "WR 3",
+    "player": "Mike Evans",
+    "player_points": 257.1,
+    "manager": "fink"
+  },
+  {
+    "season": 2016,
+    "position": "TE",
+    "player": "Greg Olsen",
+    "player_points": 168.3,
+    "manager": "fink"
+  },
+  {
+    "season": 2016,
+    "position": "W/R/T",
+    "player": "Le'Veon Bell",
+    "player_points": 276.9,
+    "manager": "fernando"
+  },
+  {
+    "season": 2016,
+    "position": "K",
+    "player": "Matt Bryant",
+    "player_points": 133.0,
+    "manager": "costa"
+  },
+  {
+    "season": 2016,
+    "position": "DEF",
+    "player": "Kansas City",
+    "player_points": 168.0,
+    "manager": "wally"
+  },
+  {
+    "season": 2017,
+    "position": "QB",
+    "player": "Russell Wilson",
+    "player_points": 326.48,
+    "manager": "tony"
+  },
+  {
+    "season": 2017,
+    "position": "RB 1",
+    "player": "Todd Gurley II",
+    "player_points": 386.3,
+    "manager": "dean"
+  },
+  {
+    "season": 2017,
+    "position": "RB 2",
+    "player": "Le'Veon Bell",
+    "player_points": 341.1,
+    "manager": "tony"
+  },
+  {
+    "season": 2017,
+    "position": "WR 1",
+    "player": "Antonio Brown",
+    "player_points": 312.8,
+    "manager": "marcil"
+  },
+  {
+    "season": 2017,
+    "position": "WR 2",
+    "player": "DeAndre Hopkins",
+    "player_points": 311.8,
+    "manager": "wally"
+  },
+  {
+    "season": 2017,
+    "position": "WR 3",
+    "player": "Tyreek Hill",
+    "player_points": 255.7,
+    "manager": "george"
+  },
+  {
+    "season": 2017,
+    "position": "TE",
+    "player": "Travis Kelce",
+    "player_points": 234.0,
+    "manager": "fernando"
+  },
+  {
+    "season": 2017,
+    "position": "W/R/T",
+    "player": "Alvin Kamara",
+    "player_points": 291.6,
+    "manager": "mike"
+  },
+  {
+    "season": 2017,
+    "position": "K",
+    "player": "Greg Zuerlein",
+    "player_points": 135.0,
+    "manager": "tony"
+  },
+  {
+    "season": 2017,
+    "position": "DEF",
+    "player": "Jacksonville",
+    "player_points": 216.0,
+    "manager": "costa"
+  },
+  {
+    "season": 2018,
+    "position": "QB",
+    "player": "Patrick Mahomes",
+    "player_points": 423.58,
+    "manager": "matt"
+  },
+  {
+    "season": 2018,
+    "position": "RB 1",
+    "player": "Saquon Barkley",
+    "player_points": 395.8,
+    "manager": "dean"
+  },
+  {
+    "season": 2018,
+    "position": "RB 2",
+    "player": "Christian McCaffrey",
+    "player_points": 384.0,
+    "manager": "costa"
+  },
+  {
+    "season": 2018,
+    "position": "WR 1",
+    "player": "Tyreek Hill",
+    "player_points": 342.0,
+    "manager": "fernando"
+  },
+  {
+    "season": 2018,
+    "position": "WR 2",
+    "player": "DeAndre Hopkins",
+    "player_points": 337.5,
+    "manager": "fernando"
+  },
+  {
+    "season": 2018,
+    "position": "WR 3",
+    "player": "Davante Adams",
+    "player_points": 332.1,
+    "manager": "matt"
+  },
+  {
+    "season": 2018,
+    "position": "TE",
+    "player": "Travis Kelce",
+    "player_points": 294.6,
+    "manager": "dean"
+  },
+  {
+    "season": 2018,
+    "position": "TE",
+    "player": "Zack Ertz",
+    "player_points": 279.3,
+    "manager": "matt"
+  },
+  {
+    "season": 2018,
+    "position": "K",
+    "player": "Ka'imi Fairbairn",
+    "player_points": 123.0,
+    "manager": "fernando"
+  },
+  {
+    "season": 2018,
+    "position": "DEF",
+    "player": "Chicago",
+    "player_points": 214.0,
+    "manager": "mike"
+  },
+  {
+    "season": 2019,
+    "position": "QB",
+    "player": "Lamar Jackson",
+    "player_points": 418.68,
+    "manager": "mike"
+  },
+  {
+    "season": 2019,
+    "position": "RB 1",
+    "player": "Christian McCaffrey",
+    "player_points": 478.2,
+    "manager": "george"
+  },
+  {
+    "season": 2019,
+    "position": "RB 2",
+    "player": "Aaron Jones",
+    "player_points": 317.8,
+    "manager": "matt"
+  },
+  {
+    "season": 2019,
+    "position": "WR 1",
+    "player": "Michael Thomas",
+    "player_points": 375.1,
+    "manager": "mike"
+  },
+  {
+    "season": 2019,
+    "position": "WR 2",
+    "player": "Chris Goodwin",
+    "player_points": 278.6,
+    "manager": "chris"
+  },
+  {
+    "season": 2019,
+    "position": "WR 3",
+    "player": "Julio Jones",
+    "player_points": 275.6,
+    "manager": "matt"
+  },
+  {
+    "season": 2019,
+    "position": "TE",
+    "player": "Travis Kelce",
+    "player_points": 255.8,
+    "manager": "tony"
+  },
+  {
+    "season": 2019,
+    "position": "TE",
+    "player": "George Kittle",
+    "player_points": 223.5,
+    "manager": "george"
+  },
+  {
+    "season": 2019,
+    "position": "DEF",
+    "player": "New England",
+    "player_points": 266.0,
+    "manager": "matt"
+  },
+  {
+    "season": 2020,
+    "position": "QB",
+    "player": "Josh Allen",
+    "player_points": 399.06,
+    "manager": "dean"
+  },
+  {
+    "season": 2020,
+    "position": "RB 1",
+    "player": "Alvin Kamara",
+    "player_points": 380.8,
+    "manager": "fernando"
+  },
+  {
+    "season": 2020,
+    "position": "RB 2",
+    "player": "Dalvin Cook",
+    "player_points": 339.3,
+    "manager": "marcil"
+  },
+  {
+    "season": 2020,
+    "position": "WR 1",
+    "player": "Davante Adams",
+    "player_points": 362.9,
+    "manager": "mike"
+  },
+  {
+    "season": 2020,
+    "position": "WR 2",
+    "player": "Tyreek Hill",
+    "player_points": 335.4,
+    "manager": "matt"
+  },
+  {
+    "season": 2020,
+    "position": "WR 3",
+    "player": "Stefon Diggs",
+    "player_points": 332.1,
+    "manager": "dean"
+  },
+  {
+    "season": 2020,
+    "position": "TE",
+    "player": "Travis Kelce",
+    "player_points": 313.76,
+    "manager": "marcil"
+  },
+  {
+    "season": 2020,
+    "position": "TE",
+    "player": "Darren Waller",
+    "player_points": 278.6,
+    "manager": "tony"
+  },
+  {
+    "season": 2020,
+    "position": "DEF",
+    "player": "LAR",
+    "player_points": 178.0,
+    "manager": "tony"
+  },
+  {
+    "season": 2021,
+    "position": "QB",
+    "player": "Josh Allen",
+    "player_points": 402.58,
+    "manager": "matt"
+  },
+  {
+    "season": 2021,
+    "position": "RB 1",
+    "player": "Jonathan Taylor",
+    "player_points": 376.6,
+    "manager": "tony"
+  },
+  {
+    "season": 2021,
+    "position": "RB 2",
+    "player": "Austin Ekeler",
+    "player_points": 343.3,
+    "manager": "marcil"
+  },
+  {
+    "season": 2021,
+    "position": "WR 1",
+    "player": "Cooper Kupp",
+    "player_points": 445.0,
+    "manager": "costa"
+  },
+  {
+    "season": 2021,
+    "position": "WR 2",
+    "player": "Davante Adams",
+    "player_points": 346.3,
+    "manager": "fink"
+  },
+  {
+    "season": 2021,
+    "position": "WR 3",
+    "player": "Deebo Samuel",
+    "player_points": 345.46,
+    "manager": "chris"
+  },
+  {
+    "season": 2021,
+    "position": "TE",
+    "player": "Mark Andrews",
+    "player_points": 301.1,
+    "manager": "george"
+  },
+  {
+    "season": 2021,
+    "position": "TE",
+    "player": "Travis Kelce",
+    "player_points": 264.8,
+    "manager": "fink"
+  },
+  {
+    "season": 2021,
+    "position": "DEF",
+    "player": "Dallas",
+    "player_points": 205.0,
+    "manager": "dean"
+  }
+]

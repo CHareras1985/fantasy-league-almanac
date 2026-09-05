@@ -1,0 +1,100 @@
+[
+  {
+    "id": "tony",
+    "name": "Tony",
+    "aliases": [],
+    "first_season": 2009,
+    "last_season": 2021,
+    "active": true
+  },
+  {
+    "id": "costa",
+    "name": "Costa",
+    "aliases": [],
+    "first_season": 2009,
+    "last_season": 2021,
+    "active": true
+  },
+  {
+    "id": "wally",
+    "name": "Wally",
+    "aliases": [],
+    "first_season": 2009,
+    "last_season": 2017,
+    "active": false
+  },
+  {
+    "id": "paul",
+    "name": "Paul",
+    "aliases": [],
+    "first_season": 2009,
+    "last_season": 2014,
+    "active": false
+  },
+  {
+    "id": "fernando",
+    "name": "Fernando",
+    "aliases": [
+      "Fern"
+    ],
+    "first_season": 2009,
+    "last_season": 2021,
+    "active": true
+  },
+  {
+    "id": "george",
+    "name": "George",
+    "aliases": [],
+    "first_season": 2009,
+    "last_season": 2021,
+    "active": true
+  },
+  {
+    "id": "dean",
+    "name": "Dean",
+    "aliases": [],
+    "first_season": 2009,
+    "last_season": 2021,
+    "active": true
+  },
+  {
+    "id": "fink",
+    "name": "Fink",
+    "aliases": [],
+    "first_season": 2009,
+    "last_season": 2021,
+    "active": true
+  },
+  {
+    "id": "marcil",
+    "name": "Marcil",
+    "aliases": [],
+    "first_season": 2009,
+    "last_season": 2021,
+    "active": true
+  },
+  {
+    "id": "chris",
+    "name": "Chris",
+    "aliases": [],
+    "first_season": 2011,
+    "last_season": 2021,
+    "active": true
+  },
+  {
+    "id": "matt",
+    "name": "Matt",
+    "aliases": [],
+    "first_season": 2015,
+    "last_season": 2021,
+    "active": true
+  },
+  {
+    "id": "mike",
+    "name": "Mike",
+    "aliases": [],
+    "first_season": 2017,
+    "last_season": 2021,
+    "active": true
+  }
+]

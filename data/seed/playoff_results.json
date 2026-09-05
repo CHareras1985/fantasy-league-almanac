@@ -1,0 +1,340 @@
+[
+  {
+    "season": 2009,
+    "champion": "tony",
+    "runner_up": "costa",
+    "third": "fernando",
+    "championship_game": [
+      {
+        "manager": "tony",
+        "points": 100.08
+      },
+      {
+        "manager": "costa",
+        "points": 87.98
+      }
+    ],
+    "third_place_game": [
+      {
+        "manager": "fernando",
+        "points": 110.62
+      },
+      {
+        "manager": null,
+        "points": 93.04
+      }
+    ]
+  },
+  {
+    "season": 2010,
+    "champion": "marcil",
+    "runner_up": "costa",
+    "third": "paul",
+    "championship_game": [
+      {
+        "manager": "costa",
+        "points": 92.86
+      },
+      {
+        "manager": "marcil",
+        "points": 133.7
+      }
+    ],
+    "third_place_game": [
+      {
+        "manager": "paul",
+        "points": 120.66
+      },
+      {
+        "manager": "tony",
+        "points": 65.1
+      }
+    ]
+  },
+  {
+    "season": 2011,
+    "champion": "fernando",
+    "runner_up": "george",
+    "third": "paul",
+    "championship_game": [
+      {
+        "manager": "george",
+        "points": 97.54
+      },
+      {
+        "manager": "fernando",
+        "points": 116.4
+      }
+    ],
+    "third_place_game": [
+      {
+        "manager": "costa",
+        "points": 64.36
+      },
+      {
+        "manager": "paul",
+        "points": 122.12
+      }
+    ]
+  },
+  {
+    "season": 2012,
+    "champion": "tony",
+    "runner_up": "marcil",
+    "third": "dean",
+    "championship_game": [
+      {
+        "manager": "tony",
+        "points": 105.1
+      },
+      {
+        "manager": "marcil",
+        "points": 100.02
+      }
+    ],
+    "third_place_game": [
+      {
+        "manager": "dean",
+        "points": 109.22
+      },
+      {
+        "manager": "fernando",
+        "points": 105.46
+      }
+    ]
+  },
+  {
+    "season": 2013,
+    "champion": "costa",
+    "runner_up": "marcil",
+    "third": "paul",
+    "championship_game": [
+      {
+        "manager": "marcil",
+        "points": 79.34
+      },
+      {
+        "manager": "costa",
+        "points": 116.2
+      }
+    ],
+    "third_place_game": [
+      {
+        "manager": "paul",
+        "points": 122.58
+      },
+      {
+        "manager": "fernando",
+        "points": 96.42
+      }
+    ]
+  },
+  {
+    "season": 2014,
+    "champion": "fernando",
+    "runner_up": "fink",
+    "third": "wally",
+    "championship_game": [
+      {
+        "manager": "fernando",
+        "points": 148.62
+      },
+      {
+        "manager": "fink",
+        "points": 89.46
+      }
+    ],
+    "third_place_game": [
+      {
+        "manager": "wally",
+        "points": 115.12
+      },
+      {
+        "manager": "george",
+        "points": 111.64
+      }
+    ]
+  },
+  {
+    "season": 2015,
+    "champion": "marcil",
+    "runner_up": "george",
+    "third": "matt",
+    "championship_game": [
+      {
+        "manager": "george",
+        "points": 96.4
+      },
+      {
+        "manager": "marcil",
+        "points": 139.08
+      }
+    ],
+    "third_place_game": [
+      {
+        "manager": "tony",
+        "points": 93.94
+      },
+      {
+        "manager": "matt",
+        "points": 132.54
+      }
+    ]
+  },
+  {
+    "season": 2016,
+    "champion": "wally",
+    "runner_up": "fernando",
+    "third": "costa",
+    "championship_game": [
+      {
+        "manager": "wally",
+        "points": 155.42
+      },
+      {
+        "manager": "fernando",
+        "points": 112.08
+      }
+    ],
+    "third_place_game": [
+      {
+        "manager": "george",
+        "points": 109.86
+      },
+      {
+        "manager": "costa",
+        "points": 123.78
+      }
+    ]
+  },
+  {
+    "season": 2017,
+    "champion": "dean",
+    "runner_up": "tony",
+    "third": "marcil",
+    "championship_game": [
+      {
+        "manager": "dean",
+        "points": 176.56
+      },
+      {
+        "manager": "tony",
+        "points": 144.06
+      }
+    ],
+    "third_place_game": [
+      {
+        "manager": "chris",
+        "points": 96.74
+      },
+      {
+        "manager": "marcil",
+        "points": 109.9
+      }
+    ]
+  },
+  {
+    "season": 2018,
+    "champion": "mike",
+    "runner_up": "fink",
+    "third": "matt",
+    "championship_game": [
+      {
+        "manager": "fink",
+        "points": 147.46
+      },
+      {
+        "manager": "mike",
+        "points": 162.34
+      }
+    ],
+    "third_place_game": [
+      {
+        "manager": "dean",
+        "points": 103.68
+      },
+      {
+        "manager": "matt",
+        "points": 176.24
+      }
+    ]
+  },
+  {
+    "season": 2019,
+    "champion": "matt",
+    "runner_up": "mike",
+    "third": "george",
+    "championship_game": [
+      {
+        "manager": "mike",
+        "points": 113.02
+      },
+      {
+        "manager": "matt",
+        "points": 132.1
+      }
+    ],
+    "third_place_game": [
+      {
+        "manager": "tony",
+        "points": 118.78
+      },
+      {
+        "manager": "george",
+        "points": 148.56
+      }
+    ]
+  },
+  {
+    "season": 2020,
+    "champion": "marcil",
+    "runner_up": "tony",
+    "third": "fernando",
+    "championship_game": [
+      {
+        "manager": "marcil",
+        "points": 128.28
+      },
+      {
+        "manager": "tony",
+        "points": 116.32
+      }
+    ],
+    "third_place_game": [
+      {
+        "manager": "dean",
+        "points": 172.7
+      },
+      {
+        "manager": "fernando",
+        "points": 181.12
+      }
+    ]
+  },
+  {
+    "season": 2021,
+    "champion": "costa",
+    "runner_up": "marcil",
+    "third": "tony",
+    "championship_game": [
+      {
+        "manager": "costa",
+        "points": 115.42
+      },
+      {
+        "manager": "marcil",
+        "points": 115.06
+      }
+    ],
+    "third_place_game": [
+      {
+        "manager": "fink",
+        "points": 124.92
+      },
+      {
+        "manager": "tony",
+        "points": 180.0
+      }
+    ]
+  }
+]

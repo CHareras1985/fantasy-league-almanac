@@ -1,0 +1,1026 @@
+[
+  {
+    "season": 2009,
+    "manager": "tony",
+    "wins": 10.0,
+    "losses": 3.0,
+    "points_for": 1473.76,
+    "reg_rank": 1
+  },
+  {
+    "season": 2009,
+    "manager": "costa",
+    "wins": 9.0,
+    "losses": 4.0,
+    "points_for": 1313.9,
+    "reg_rank": 2
+  },
+  {
+    "season": 2009,
+    "manager": "wally",
+    "wins": 8.0,
+    "losses": 5.0,
+    "points_for": 1277.1,
+    "reg_rank": 3
+  },
+  {
+    "season": 2009,
+    "manager": "paul",
+    "wins": 8.0,
+    "losses": 5.0,
+    "points_for": 1264.46,
+    "reg_rank": 4
+  },
+  {
+    "season": 2009,
+    "manager": "fernando",
+    "wins": 7.0,
+    "losses": 6.0,
+    "points_for": 1377.82,
+    "reg_rank": 5
+  },
+  {
+    "season": 2009,
+    "manager": "george",
+    "wins": 6.0,
+    "losses": 7.0,
+    "points_for": 1233.02,
+    "reg_rank": 6
+  },
+  {
+    "season": 2009,
+    "manager": "dean",
+    "wins": 5.0,
+    "losses": 8.0,
+    "points_for": 1305.28,
+    "reg_rank": 7
+  },
+  {
+    "season": 2009,
+    "manager": "fink",
+    "wins": 4.0,
+    "losses": 9.0,
+    "points_for": 994.14,
+    "reg_rank": 8
+  },
+  {
+    "season": 2009,
+    "manager": "marcil",
+    "wins": 1.0,
+    "losses": 12.0,
+    "points_for": 975.76,
+    "reg_rank": 9
+  },
+  {
+    "season": 2010,
+    "manager": "costa",
+    "wins": 10.0,
+    "losses": 3.0,
+    "points_for": 1528.6,
+    "reg_rank": 1
+  },
+  {
+    "season": 2010,
+    "manager": "marcil",
+    "wins": 10.0,
+    "losses": 3.0,
+    "points_for": 1424.54,
+    "reg_rank": 2
+  },
+  {
+    "season": 2010,
+    "manager": "wally",
+    "wins": 9.0,
+    "losses": 4.0,
+    "points_for": 1385.98,
+    "reg_rank": 3
+  },
+  {
+    "season": 2010,
+    "manager": "paul",
+    "wins": 9.0,
+    "losses": 4.0,
+    "points_for": 1317.7,
+    "reg_rank": 4
+  },
+  {
+    "season": 2010,
+    "manager": "george",
+    "wins": 7.0,
+    "losses": 6.0,
+    "points_for": 1222.98,
+    "reg_rank": 5
+  },
+  {
+    "season": 2010,
+    "manager": "tony",
+    "wins": 6.0,
+    "losses": 7.0,
+    "points_for": 1367.14,
+    "reg_rank": 6
+  },
+  {
+    "season": 2010,
+    "manager": "dean",
+    "wins": 5.0,
+    "losses": 8.0,
+    "points_for": 1132.08,
+    "reg_rank": 7
+  },
+  {
+    "season": 2010,
+    "manager": "fink",
+    "wins": 5.0,
+    "losses": 8.0,
+    "points_for": 1103.76,
+    "reg_rank": 8
+  },
+  {
+    "season": 2010,
+    "manager": "fernando",
+    "wins": 3.0,
+    "losses": 10.0,
+    "points_for": 1038.2,
+    "reg_rank": 9
+  },
+  {
+    "season": 2011,
+    "manager": "george",
+    "wins": 11.0,
+    "losses": 2.0,
+    "points_for": 1364.14,
+    "reg_rank": 1
+  },
+  {
+    "season": 2011,
+    "manager": "paul",
+    "wins": 10.0,
+    "losses": 3.0,
+    "points_for": 1342.5,
+    "reg_rank": 2
+  },
+  {
+    "season": 2011,
+    "manager": "tony",
+    "wins": 9.0,
+    "losses": 4.0,
+    "points_for": 1414.28,
+    "reg_rank": 3
+  },
+  {
+    "season": 2011,
+    "manager": "costa",
+    "wins": 8.0,
+    "losses": 5.0,
+    "points_for": 1377.6,
+    "reg_rank": 4
+  },
+  {
+    "season": 2011,
+    "manager": "dean",
+    "wins": 6.0,
+    "losses": 7.0,
+    "points_for": 1245.1,
+    "reg_rank": 5
+  },
+  {
+    "season": 2011,
+    "manager": "fernando",
+    "wins": 5.0,
+    "losses": 8.0,
+    "points_for": 1334.78,
+    "reg_rank": 6
+  },
+  {
+    "season": 2011,
+    "manager": "wally",
+    "wins": 5.0,
+    "losses": 8.0,
+    "points_for": 1154.38,
+    "reg_rank": 7
+  },
+  {
+    "season": 2011,
+    "manager": "chris",
+    "wins": 4.0,
+    "losses": 9.0,
+    "points_for": 1365.74,
+    "reg_rank": 8
+  },
+  {
+    "season": 2011,
+    "manager": "marcil",
+    "wins": 4.0,
+    "losses": 9.0,
+    "points_for": 1143.84,
+    "reg_rank": 9
+  },
+  {
+    "season": 2011,
+    "manager": "fink",
+    "wins": 3.0,
+    "losses": 10.0,
+    "points_for": 1074.54,
+    "reg_rank": 10
+  },
+  {
+    "season": 2012,
+    "manager": "dean",
+    "wins": 11.0,
+    "losses": 2.0,
+    "points_for": 1630.36,
+    "reg_rank": 1
+  },
+  {
+    "season": 2012,
+    "manager": "marcil",
+    "wins": 8.0,
+    "losses": 5.0,
+    "points_for": 1284.94,
+    "reg_rank": 2
+  },
+  {
+    "season": 2012,
+    "manager": "fernando",
+    "wins": 8.0,
+    "losses": 5.0,
+    "points_for": 1273.9,
+    "reg_rank": 3
+  },
+  {
+    "season": 2012,
+    "manager": "tony",
+    "wins": 7.0,
+    "losses": 6.0,
+    "points_for": 1340.8,
+    "reg_rank": 4
+  },
+  {
+    "season": 2012,
+    "manager": "chris",
+    "wins": 7.0,
+    "losses": 6.0,
+    "points_for": 1262.3,
+    "reg_rank": 5
+  },
+  {
+    "season": 2012,
+    "manager": "wally",
+    "wins": 7.0,
+    "losses": 6.0,
+    "points_for": 1259.79,
+    "reg_rank": 6
+  },
+  {
+    "season": 2012,
+    "manager": "paul",
+    "wins": 6.0,
+    "losses": 7.0,
+    "points_for": 1265.32,
+    "reg_rank": 7
+  },
+  {
+    "season": 2012,
+    "manager": "george",
+    "wins": 6.0,
+    "losses": 7.0,
+    "points_for": 1197.78,
+    "reg_rank": 8
+  },
+  {
+    "season": 2012,
+    "manager": "costa",
+    "wins": 3.0,
+    "losses": 10.0,
+    "points_for": 1158.92,
+    "reg_rank": 9
+  },
+  {
+    "season": 2012,
+    "manager": "fink",
+    "wins": 2.0,
+    "losses": 11.0,
+    "points_for": 1066.4,
+    "reg_rank": 10
+  },
+  {
+    "season": 2013,
+    "manager": "paul",
+    "wins": 9.0,
+    "losses": 4.0,
+    "points_for": 1555.34,
+    "reg_rank": 1
+  },
+  {
+    "season": 2013,
+    "manager": "fernando",
+    "wins": 9.0,
+    "losses": 4.0,
+    "points_for": 1548.2,
+    "reg_rank": 2
+  },
+  {
+    "season": 2013,
+    "manager": "costa",
+    "wins": 7.0,
+    "losses": 6.0,
+    "points_for": 1405.72,
+    "reg_rank": 3
+  },
+  {
+    "season": 2013,
+    "manager": "marcil",
+    "wins": 6.0,
+    "losses": 7.0,
+    "points_for": 1589.96,
+    "reg_rank": 4
+  },
+  {
+    "season": 2013,
+    "manager": "tony",
+    "wins": 6.0,
+    "losses": 7.0,
+    "points_for": 1510.56,
+    "reg_rank": 5
+  },
+  {
+    "season": 2013,
+    "manager": "dean",
+    "wins": 6.0,
+    "losses": 7.0,
+    "points_for": 1510.38,
+    "reg_rank": 6
+  },
+  {
+    "season": 2013,
+    "manager": "fink",
+    "wins": 6.0,
+    "losses": 7.0,
+    "points_for": 1492.48,
+    "reg_rank": 7
+  },
+  {
+    "season": 2013,
+    "manager": "chris",
+    "wins": 6.0,
+    "losses": 7.0,
+    "points_for": 1420.54,
+    "reg_rank": 8
+  },
+  {
+    "season": 2013,
+    "manager": "wally",
+    "wins": 5.0,
+    "losses": 8.0,
+    "points_for": 1530.5,
+    "reg_rank": 9
+  },
+  {
+    "season": 2013,
+    "manager": "george",
+    "wins": 5.0,
+    "losses": 8.0,
+    "points_for": 1516.34,
+    "reg_rank": 10
+  },
+  {
+    "season": 2014,
+    "manager": "fernando",
+    "wins": 11.0,
+    "losses": 2.0,
+    "points_for": 1765.84,
+    "reg_rank": 1
+  },
+  {
+    "season": 2014,
+    "manager": "george",
+    "wins": 11.0,
+    "losses": 2.0,
+    "points_for": 1646.0,
+    "reg_rank": 2
+  },
+  {
+    "season": 2014,
+    "manager": "fink",
+    "wins": 9.0,
+    "losses": 4.0,
+    "points_for": 1603.98,
+    "reg_rank": 3
+  },
+  {
+    "season": 2014,
+    "manager": "wally",
+    "wins": 6.0,
+    "losses": 7.0,
+    "points_for": 1589.38,
+    "reg_rank": 4
+  },
+  {
+    "season": 2014,
+    "manager": "costa",
+    "wins": 6.0,
+    "losses": 7.0,
+    "points_for": 1533.9,
+    "reg_rank": 5
+  },
+  {
+    "season": 2014,
+    "manager": "chris",
+    "wins": 6.0,
+    "losses": 7.0,
+    "points_for": 1385.32,
+    "reg_rank": 6
+  },
+  {
+    "season": 2014,
+    "manager": "dean",
+    "wins": 6.0,
+    "losses": 7.0,
+    "points_for": 1322.98,
+    "reg_rank": 7
+  },
+  {
+    "season": 2014,
+    "manager": "paul",
+    "wins": 4.0,
+    "losses": 9.0,
+    "points_for": 1414.08,
+    "reg_rank": 8
+  },
+  {
+    "season": 2014,
+    "manager": "marcil",
+    "wins": 3.0,
+    "losses": 10.0,
+    "points_for": 1346.26,
+    "reg_rank": 9
+  },
+  {
+    "season": 2014,
+    "manager": "tony",
+    "wins": 3.0,
+    "losses": 10.0,
+    "points_for": 1302.46,
+    "reg_rank": 10
+  },
+  {
+    "season": 2015,
+    "manager": "tony",
+    "wins": 9.0,
+    "losses": 4.0,
+    "points_for": 1676.0,
+    "reg_rank": 1
+  },
+  {
+    "season": 2015,
+    "manager": "marcil",
+    "wins": 9.0,
+    "losses": 4.0,
+    "points_for": 1629.48,
+    "reg_rank": 2
+  },
+  {
+    "season": 2015,
+    "manager": "dean",
+    "wins": 8.0,
+    "losses": 5.0,
+    "points_for": 1387.26,
+    "reg_rank": 3
+  },
+  {
+    "season": 2015,
+    "manager": "fernando",
+    "wins": 8.0,
+    "losses": 5.0,
+    "points_for": 1299.68,
+    "reg_rank": 4
+  },
+  {
+    "season": 2015,
+    "manager": "george",
+    "wins": 7.0,
+    "losses": 6.0,
+    "points_for": 1663.78,
+    "reg_rank": 5
+  },
+  {
+    "season": 2015,
+    "manager": "matt",
+    "wins": 6.0,
+    "losses": 7.0,
+    "points_for": 1517.24,
+    "reg_rank": 6
+  },
+  {
+    "season": 2015,
+    "manager": "chris",
+    "wins": 6.0,
+    "losses": 7.0,
+    "points_for": 1193.44,
+    "reg_rank": 7
+  },
+  {
+    "season": 2015,
+    "manager": "wally",
+    "wins": 5.0,
+    "losses": 8.0,
+    "points_for": 1641.9,
+    "reg_rank": 8
+  },
+  {
+    "season": 2015,
+    "manager": "fink",
+    "wins": 5.0,
+    "losses": 8.0,
+    "points_for": 1508.1,
+    "reg_rank": 9
+  },
+  {
+    "season": 2015,
+    "manager": "costa",
+    "wins": 2.0,
+    "losses": 11.0,
+    "points_for": 1363.08,
+    "reg_rank": 10
+  },
+  {
+    "season": 2016,
+    "manager": "wally",
+    "wins": 10.0,
+    "losses": 3.0,
+    "points_for": 1743.5,
+    "reg_rank": 1
+  },
+  {
+    "season": 2016,
+    "manager": "fernando",
+    "wins": 10.0,
+    "losses": 3.0,
+    "points_for": 1522.86,
+    "reg_rank": 2
+  },
+  {
+    "season": 2016,
+    "manager": "fink",
+    "wins": 7.0,
+    "losses": 6.0,
+    "points_for": 1490.02,
+    "reg_rank": 3
+  },
+  {
+    "season": 2016,
+    "manager": "marcil",
+    "wins": 7.0,
+    "losses": 6.0,
+    "points_for": 1483.56,
+    "reg_rank": 4
+  },
+  {
+    "season": 2016,
+    "manager": "george",
+    "wins": 6.0,
+    "losses": 7.0,
+    "points_for": 1544.36,
+    "reg_rank": 5
+  },
+  {
+    "season": 2016,
+    "manager": "costa",
+    "wins": 6.0,
+    "losses": 7.0,
+    "points_for": 1537.8,
+    "reg_rank": 6
+  },
+  {
+    "season": 2016,
+    "manager": "dean",
+    "wins": 6.0,
+    "losses": 7.0,
+    "points_for": 1482.22,
+    "reg_rank": 7
+  },
+  {
+    "season": 2016,
+    "manager": "matt",
+    "wins": 6.0,
+    "losses": 7.0,
+    "points_for": 1411.82,
+    "reg_rank": 8
+  },
+  {
+    "season": 2016,
+    "manager": "tony",
+    "wins": 5.0,
+    "losses": 8.0,
+    "points_for": 1526.82,
+    "reg_rank": 9
+  },
+  {
+    "season": 2016,
+    "manager": "chris",
+    "wins": 2.0,
+    "losses": 11.0,
+    "points_for": 1239.6,
+    "reg_rank": 10
+  },
+  {
+    "season": 2017,
+    "manager": "chris",
+    "wins": 8.0,
+    "losses": 5.0,
+    "points_for": 1650.0,
+    "reg_rank": 1
+  },
+  {
+    "season": 2017,
+    "manager": "tony",
+    "wins": 7.0,
+    "losses": 6.0,
+    "points_for": 1830.48,
+    "reg_rank": 2
+  },
+  {
+    "season": 2017,
+    "manager": "george",
+    "wins": 7.0,
+    "losses": 6.0,
+    "points_for": 1647.26,
+    "reg_rank": 3
+  },
+  {
+    "season": 2017,
+    "manager": "matt",
+    "wins": 7.0,
+    "losses": 6.0,
+    "points_for": 1595.3,
+    "reg_rank": 4
+  },
+  {
+    "season": 2017,
+    "manager": "dean",
+    "wins": 7.0,
+    "losses": 6.0,
+    "points_for": 1583.84,
+    "reg_rank": 5
+  },
+  {
+    "season": 2017,
+    "manager": "marcil",
+    "wins": 7.0,
+    "losses": 6.0,
+    "points_for": 1578.38,
+    "reg_rank": 6
+  },
+  {
+    "season": 2017,
+    "manager": "fernando",
+    "wins": 6.0,
+    "losses": 7.0,
+    "points_for": 1709.12,
+    "reg_rank": 7
+  },
+  {
+    "season": 2017,
+    "manager": "wally",
+    "wins": 6.0,
+    "losses": 7.0,
+    "points_for": 1615.02,
+    "reg_rank": 8
+  },
+  {
+    "season": 2017,
+    "manager": "mike",
+    "wins": 5.0,
+    "losses": 8.0,
+    "points_for": 1664.94,
+    "reg_rank": 9
+  },
+  {
+    "season": 2017,
+    "manager": "costa",
+    "wins": 5.0,
+    "losses": 8.0,
+    "points_for": 1534.4,
+    "reg_rank": 10
+  },
+  {
+    "season": 2018,
+    "manager": "dean",
+    "wins": 10.0,
+    "losses": 3.0,
+    "points_for": 2086.82,
+    "reg_rank": 1
+  },
+  {
+    "season": 2018,
+    "manager": "matt",
+    "wins": 9.0,
+    "losses": 4.0,
+    "points_for": 1923.88,
+    "reg_rank": 2
+  },
+  {
+    "season": 2018,
+    "manager": "mike",
+    "wins": 8.0,
+    "losses": 5.0,
+    "points_for": 1974.28,
+    "reg_rank": 3
+  },
+  {
+    "season": 2018,
+    "manager": "fink",
+    "wins": 8.0,
+    "losses": 5.0,
+    "points_for": 1845.75,
+    "reg_rank": 4
+  },
+  {
+    "season": 2018,
+    "manager": "george",
+    "wins": 8.0,
+    "losses": 5.0,
+    "points_for": 1691.76,
+    "reg_rank": 5
+  },
+  {
+    "season": 2018,
+    "manager": "costa",
+    "wins": 7.0,
+    "losses": 6.0,
+    "points_for": 2045.4,
+    "reg_rank": 6
+  },
+  {
+    "season": 2018,
+    "manager": "fernando",
+    "wins": 7.0,
+    "losses": 6.0,
+    "points_for": 1899.8,
+    "reg_rank": 7
+  },
+  {
+    "season": 2018,
+    "manager": "marcil",
+    "wins": 3.0,
+    "losses": 10.0,
+    "points_for": 1707.78,
+    "reg_rank": 8
+  },
+  {
+    "season": 2018,
+    "manager": "chris",
+    "wins": 3.0,
+    "losses": 10.0,
+    "points_for": 1669.16,
+    "reg_rank": 9
+  },
+  {
+    "season": 2018,
+    "manager": "tony",
+    "wins": 2.0,
+    "losses": 11.0,
+    "points_for": 1641.26,
+    "reg_rank": 10
+  },
+  {
+    "season": 2019,
+    "manager": "mike",
+    "wins": 11.0,
+    "losses": 2.0,
+    "points_for": 1850.4,
+    "reg_rank": 1
+  },
+  {
+    "season": 2019,
+    "manager": "george",
+    "wins": 9.0,
+    "losses": 4.0,
+    "points_for": 1938.88,
+    "reg_rank": 2
+  },
+  {
+    "season": 2019,
+    "manager": "dean",
+    "wins": 9.0,
+    "losses": 4.0,
+    "points_for": 1754.2,
+    "reg_rank": 3
+  },
+  {
+    "season": 2019,
+    "manager": "tony",
+    "wins": 7.0,
+    "losses": 6.0,
+    "points_for": 1722.66,
+    "reg_rank": 4
+  },
+  {
+    "season": 2019,
+    "manager": "marcil",
+    "wins": 7.0,
+    "losses": 6.0,
+    "points_for": 1578.44,
+    "reg_rank": 5
+  },
+  {
+    "season": 2019,
+    "manager": "matt",
+    "wins": 6.0,
+    "losses": 7.0,
+    "points_for": 1787.9,
+    "reg_rank": 6
+  },
+  {
+    "season": 2019,
+    "manager": "fernando",
+    "wins": 6.0,
+    "losses": 7.0,
+    "points_for": 1593.94,
+    "reg_rank": 7
+  },
+  {
+    "season": 2019,
+    "manager": "fink",
+    "wins": 5.0,
+    "losses": 8.0,
+    "points_for": 1593.16,
+    "reg_rank": 8
+  },
+  {
+    "season": 2019,
+    "manager": "chris",
+    "wins": 4.0,
+    "losses": 9.0,
+    "points_for": 1576.1,
+    "reg_rank": 9
+  },
+  {
+    "season": 2019,
+    "manager": "costa",
+    "wins": 1.0,
+    "losses": 12.0,
+    "points_for": 1379.3,
+    "reg_rank": 10
+  },
+  {
+    "season": 2020,
+    "manager": "marcil",
+    "wins": 12.0,
+    "losses": 1.0,
+    "points_for": 2019.06,
+    "reg_rank": 1
+  },
+  {
+    "season": 2020,
+    "manager": "tony",
+    "wins": 9.0,
+    "losses": 4.0,
+    "points_for": 1691.98,
+    "reg_rank": 2
+  },
+  {
+    "season": 2020,
+    "manager": "fernando",
+    "wins": 7.0,
+    "losses": 6.0,
+    "points_for": 1844.02,
+    "reg_rank": 3
+  },
+  {
+    "season": 2020,
+    "manager": "dean",
+    "wins": 7.0,
+    "losses": 6.0,
+    "points_for": 1731.76,
+    "reg_rank": 4
+  },
+  {
+    "season": 2020,
+    "manager": "george",
+    "wins": 6.0,
+    "losses": 7.0,
+    "points_for": 1656.74,
+    "reg_rank": 5
+  },
+  {
+    "season": 2020,
+    "manager": "matt",
+    "wins": 6.0,
+    "losses": 7.0,
+    "points_for": 1588.0,
+    "reg_rank": 6
+  },
+  {
+    "season": 2020,
+    "manager": "mike",
+    "wins": 5.0,
+    "losses": 8.0,
+    "points_for": 1552.82,
+    "reg_rank": 7
+  },
+  {
+    "season": 2020,
+    "manager": "fink",
+    "wins": 5.0,
+    "losses": 8.0,
+    "points_for": 1478.9,
+    "reg_rank": 8
+  },
+  {
+    "season": 2020,
+    "manager": "costa",
+    "wins": 4.0,
+    "losses": 9.0,
+    "points_for": 1558.08,
+    "reg_rank": 9
+  },
+  {
+    "season": 2020,
+    "manager": "chris",
+    "wins": 4.0,
+    "losses": 9.0,
+    "points_for": 1502.56,
+    "reg_rank": 10
+  },
+  {
+    "season": 2021,
+    "manager": "fink",
+    "wins": 10.0,
+    "losses": 4.0,
+    "points_for": 1956.64,
+    "reg_rank": 1
+  },
+  {
+    "season": 2021,
+    "manager": "tony",
+    "wins": 9.0,
+    "losses": 5.0,
+    "points_for": 1895.74,
+    "reg_rank": 2
+  },
+  {
+    "season": 2021,
+    "manager": "george",
+    "wins": 9.0,
+    "losses": 5.0,
+    "points_for": 1797.42,
+    "reg_rank": 3
+  },
+  {
+    "season": 2021,
+    "manager": "costa",
+    "wins": 8.0,
+    "losses": 6.0,
+    "points_for": 1878.64,
+    "reg_rank": 4
+  },
+  {
+    "season": 2021,
+    "manager": "matt",
+    "wins": 8.0,
+    "losses": 6.0,
+    "points_for": 1808.02,
+    "reg_rank": 5
+  },
+  {
+    "season": 2021,
+    "manager": "marcil",
+    "wins": 7.0,
+    "losses": 7.0,
+    "points_for": 1883.74,
+    "reg_rank": 6
+  },
+  {
+    "season": 2021,
+    "manager": "dean",
+    "wins": 7.0,
+    "losses": 7.0,
+    "points_for": 1739.02,
+    "reg_rank": 7
+  },
+  {
+    "season": 2021,
+    "manager": "mike",
+    "wins": 5.0,
+    "losses": 9.0,
+    "points_for": 1600.64,
+    "reg_rank": 8
+  },
+  {
+    "season": 2021,
+    "manager": "chris",
+    "wins": 5.0,
+    "losses": 9.0,
+    "points_for": 1497.38,
+    "reg_rank": 9
+  },
+  {
+    "season": 2021,
+    "manager": "fernando",
+    "wins": 2.0,
+    "losses": 12.0,
+    "points_for": 1669.82,
+    "reg_rank": 10
+  }
+]

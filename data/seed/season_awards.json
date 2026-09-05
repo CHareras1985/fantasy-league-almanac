@@ -1,0 +1,1922 @@
+[
+  {
+    "season": 2009,
+    "manager": "tony",
+    "points": 16,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 1,
+      "winning_season": true,
+      "playoff_finish": "champion",
+      "most_points": true,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": true
+    }
+  },
+  {
+    "season": 2009,
+    "manager": "costa",
+    "points": 10,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 2,
+      "winning_season": true,
+      "playoff_finish": "runner_up",
+      "most_points": false,
+      "mvp_pick": true,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2009,
+    "manager": "wally",
+    "points": 3,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 3,
+      "winning_season": true,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2009,
+    "manager": "paul",
+    "points": 1,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 4,
+      "winning_season": true,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2009,
+    "manager": "fernando",
+    "points": 4,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 5,
+      "winning_season": true,
+      "playoff_finish": "third",
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2009,
+    "manager": "george",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 6,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2009,
+    "manager": "dean",
+    "points": 2,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 7,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": true,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2009,
+    "manager": "fink",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 8,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2009,
+    "manager": "marcil",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 9,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2010,
+    "manager": "costa",
+    "points": 14,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 1,
+      "winning_season": true,
+      "playoff_finish": "runner_up",
+      "most_points": true,
+      "mvp_pick": true,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2010,
+    "manager": "marcil",
+    "points": 12,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 2,
+      "winning_season": true,
+      "playoff_finish": "champion",
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": true
+    }
+  },
+  {
+    "season": 2010,
+    "manager": "wally",
+    "points": 3,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 3,
+      "winning_season": true,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2010,
+    "manager": "paul",
+    "points": 4,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 4,
+      "winning_season": true,
+      "playoff_finish": "third",
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2010,
+    "manager": "george",
+    "points": 3,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 5,
+      "winning_season": true,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": true,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2010,
+    "manager": "tony",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 6,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2010,
+    "manager": "dean",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 7,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2010,
+    "manager": "fink",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 8,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2010,
+    "manager": "fernando",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 9,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2011,
+    "manager": "george",
+    "points": 14,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 1,
+      "winning_season": true,
+      "playoff_finish": "runner_up",
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": true,
+      "longest_streak": true
+    }
+  },
+  {
+    "season": 2011,
+    "manager": "paul",
+    "points": 7,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 2,
+      "winning_season": true,
+      "playoff_finish": "third",
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2011,
+    "manager": "tony",
+    "points": 8,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 3,
+      "winning_season": true,
+      "playoff_finish": null,
+      "most_points": true,
+      "mvp_pick": true,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2011,
+    "manager": "costa",
+    "points": 1,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 4,
+      "winning_season": true,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2011,
+    "manager": "dean",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 5,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2011,
+    "manager": "fernando",
+    "points": 5,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 6,
+      "winning_season": false,
+      "playoff_finish": "champion",
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2011,
+    "manager": "wally",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 7,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2011,
+    "manager": "chris",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 8,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2011,
+    "manager": "marcil",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 9,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2011,
+    "manager": "fink",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 10,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2012,
+    "manager": "dean",
+    "points": 14,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 1,
+      "winning_season": true,
+      "playoff_finish": "third",
+      "most_points": true,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": true
+    }
+  },
+  {
+    "season": 2012,
+    "manager": "marcil",
+    "points": 13,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 2,
+      "winning_season": true,
+      "playoff_finish": "runner_up",
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": true,
+      "longest_streak": true
+    }
+  },
+  {
+    "season": 2012,
+    "manager": "fernando",
+    "points": 3,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 3,
+      "winning_season": true,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2012,
+    "manager": "tony",
+    "points": 6,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 4,
+      "winning_season": true,
+      "playoff_finish": "champion",
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2012,
+    "manager": "chris",
+    "points": 1,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 5,
+      "winning_season": true,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2012,
+    "manager": "wally",
+    "points": 1,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 6,
+      "winning_season": true,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2012,
+    "manager": "paul",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 7,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2012,
+    "manager": "george",
+    "points": 2,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 8,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": true,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2012,
+    "manager": "costa",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 9,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2012,
+    "manager": "fink",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 10,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2013,
+    "manager": "paul",
+    "points": 11,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 1,
+      "winning_season": true,
+      "playoff_finish": "third",
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": true
+    }
+  },
+  {
+    "season": 2013,
+    "manager": "fernando",
+    "points": 4,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 2,
+      "winning_season": true,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2013,
+    "manager": "costa",
+    "points": 8,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 3,
+      "winning_season": true,
+      "playoff_finish": "champion",
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2013,
+    "manager": "marcil",
+    "points": 7,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 4,
+      "winning_season": false,
+      "playoff_finish": "runner_up",
+      "most_points": true,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2013,
+    "manager": "tony",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 5,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2013,
+    "manager": "dean",
+    "points": 2,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 6,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": true,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2013,
+    "manager": "fink",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 7,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2013,
+    "manager": "chris",
+    "points": 2,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 8,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": true,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2013,
+    "manager": "wally",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 9,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2013,
+    "manager": "george",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 10,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2014,
+    "manager": "fernando",
+    "points": 13,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 1,
+      "winning_season": true,
+      "playoff_finish": "champion",
+      "most_points": true,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2014,
+    "manager": "george",
+    "points": 4,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 2,
+      "winning_season": true,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2014,
+    "manager": "fink",
+    "points": 10,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 3,
+      "winning_season": true,
+      "playoff_finish": "runner_up",
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": true
+    }
+  },
+  {
+    "season": 2014,
+    "manager": "wally",
+    "points": 3,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 4,
+      "winning_season": false,
+      "playoff_finish": "third",
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2014,
+    "manager": "costa",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 5,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2014,
+    "manager": "chris",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 6,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2014,
+    "manager": "dean",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 7,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2014,
+    "manager": "paul",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 8,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2014,
+    "manager": "marcil",
+    "points": 2,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 9,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": true,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2014,
+    "manager": "tony",
+    "points": 2,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 10,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": true,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2015,
+    "manager": "tony",
+    "points": 11,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 1,
+      "winning_season": true,
+      "playoff_finish": null,
+      "most_points": true,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": true
+    }
+  },
+  {
+    "season": 2015,
+    "manager": "marcil",
+    "points": 9,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 2,
+      "winning_season": true,
+      "playoff_finish": "champion",
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2015,
+    "manager": "dean",
+    "points": 3,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 3,
+      "winning_season": true,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2015,
+    "manager": "fernando",
+    "points": 1,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 4,
+      "winning_season": true,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2015,
+    "manager": "george",
+    "points": 7,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 5,
+      "winning_season": true,
+      "playoff_finish": "runner_up",
+      "most_points": false,
+      "mvp_pick": true,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2015,
+    "manager": "matt",
+    "points": 3,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 6,
+      "winning_season": false,
+      "playoff_finish": "third",
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2015,
+    "manager": "chris",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 7,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2015,
+    "manager": "wally",
+    "points": 2,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 8,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": true,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2015,
+    "manager": "fink",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 9,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2015,
+    "manager": "costa",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 10,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2016,
+    "manager": "wally",
+    "points": 16,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 1,
+      "winning_season": true,
+      "playoff_finish": "champion",
+      "most_points": true,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": true
+    }
+  },
+  {
+    "season": 2016,
+    "manager": "fernando",
+    "points": 11,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 2,
+      "winning_season": true,
+      "playoff_finish": "runner_up",
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": true
+    }
+  },
+  {
+    "season": 2016,
+    "manager": "fink",
+    "points": 3,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 3,
+      "winning_season": true,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2016,
+    "manager": "marcil",
+    "points": 1,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 4,
+      "winning_season": true,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2016,
+    "manager": "george",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 5,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2016,
+    "manager": "costa",
+    "points": 5,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 6,
+      "winning_season": false,
+      "playoff_finish": "third",
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": true,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2016,
+    "manager": "dean",
+    "points": 2,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 7,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": true,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2016,
+    "manager": "matt",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 8,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2016,
+    "manager": "tony",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 9,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2016,
+    "manager": "chris",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 10,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2017,
+    "manager": "chris",
+    "points": 5,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 1,
+      "winning_season": true,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2017,
+    "manager": "tony",
+    "points": 13,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 2,
+      "winning_season": true,
+      "playoff_finish": "runner_up",
+      "most_points": true,
+      "mvp_pick": false,
+      "best_transaction": true,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2017,
+    "manager": "george",
+    "points": 3,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 3,
+      "winning_season": true,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2017,
+    "manager": "matt",
+    "points": 1,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 4,
+      "winning_season": true,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2017,
+    "manager": "dean",
+    "points": 11,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 5,
+      "winning_season": true,
+      "playoff_finish": "champion",
+      "most_points": false,
+      "mvp_pick": true,
+      "best_transaction": false,
+      "longest_streak": true
+    }
+  },
+  {
+    "season": 2017,
+    "manager": "marcil",
+    "points": 4,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 6,
+      "winning_season": true,
+      "playoff_finish": "third",
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2017,
+    "manager": "fernando",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 7,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2017,
+    "manager": "wally",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 8,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2017,
+    "manager": "mike",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 9,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2017,
+    "manager": "costa",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 10,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2018,
+    "manager": "dean",
+    "points": 13,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 1,
+      "winning_season": true,
+      "playoff_finish": null,
+      "most_points": true,
+      "mvp_pick": true,
+      "best_transaction": false,
+      "longest_streak": true
+    }
+  },
+  {
+    "season": 2018,
+    "manager": "matt",
+    "points": 9,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 2,
+      "winning_season": true,
+      "playoff_finish": "third",
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": true,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2018,
+    "manager": "mike",
+    "points": 8,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 3,
+      "winning_season": true,
+      "playoff_finish": "champion",
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2018,
+    "manager": "fink",
+    "points": 5,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 4,
+      "winning_season": true,
+      "playoff_finish": "runner_up",
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2018,
+    "manager": "george",
+    "points": 1,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 5,
+      "winning_season": true,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2018,
+    "manager": "costa",
+    "points": 1,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 6,
+      "winning_season": true,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2018,
+    "manager": "fernando",
+    "points": 1,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 7,
+      "winning_season": true,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2018,
+    "manager": "marcil",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 8,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2018,
+    "manager": "chris",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 9,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2018,
+    "manager": "tony",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 10,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2019,
+    "manager": "mike",
+    "points": 14,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 1,
+      "winning_season": true,
+      "playoff_finish": "runner_up",
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": true,
+      "longest_streak": true
+    }
+  },
+  {
+    "season": 2019,
+    "manager": "george",
+    "points": 12,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 2,
+      "winning_season": true,
+      "playoff_finish": "third",
+      "most_points": true,
+      "mvp_pick": true,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2019,
+    "manager": "dean",
+    "points": 3,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 3,
+      "winning_season": true,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2019,
+    "manager": "tony",
+    "points": 1,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 4,
+      "winning_season": true,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2019,
+    "manager": "marcil",
+    "points": 1,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 5,
+      "winning_season": true,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2019,
+    "manager": "matt",
+    "points": 5,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 6,
+      "winning_season": false,
+      "playoff_finish": "champion",
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2019,
+    "manager": "fernando",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 7,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2019,
+    "manager": "fink",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 8,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2019,
+    "manager": "chris",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 9,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2019,
+    "manager": "costa",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 10,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2020,
+    "manager": "marcil",
+    "points": 16,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 1,
+      "winning_season": true,
+      "playoff_finish": "champion",
+      "most_points": true,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": true
+    }
+  },
+  {
+    "season": 2020,
+    "manager": "tony",
+    "points": 8,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 2,
+      "winning_season": true,
+      "playoff_finish": "runner_up",
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2020,
+    "manager": "fernando",
+    "points": 6,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 3,
+      "winning_season": true,
+      "playoff_finish": "third",
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2020,
+    "manager": "dean",
+    "points": 3,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 4,
+      "winning_season": true,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": true,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2020,
+    "manager": "george",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 5,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2020,
+    "manager": "matt",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 6,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2020,
+    "manager": "mike",
+    "points": 2,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 7,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": true,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2020,
+    "manager": "fink",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 8,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2020,
+    "manager": "costa",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 9,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2020,
+    "manager": "chris",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 10,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2021,
+    "manager": "fink",
+    "points": 8,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 1,
+      "winning_season": true,
+      "playoff_finish": null,
+      "most_points": true,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2021,
+    "manager": "tony",
+    "points": 9,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 2,
+      "winning_season": true,
+      "playoff_finish": "third",
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": true,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2021,
+    "manager": "george",
+    "points": 3,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 3,
+      "winning_season": true,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2021,
+    "manager": "costa",
+    "points": 11,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 4,
+      "winning_season": true,
+      "playoff_finish": "champion",
+      "most_points": false,
+      "mvp_pick": true,
+      "best_transaction": false,
+      "longest_streak": true
+    }
+  },
+  {
+    "season": 2021,
+    "manager": "matt",
+    "points": 1,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 5,
+      "winning_season": true,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2021,
+    "manager": "marcil",
+    "points": 4,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 6,
+      "winning_season": false,
+      "playoff_finish": "runner_up",
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2021,
+    "manager": "dean",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 7,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2021,
+    "manager": "mike",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 8,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2021,
+    "manager": "chris",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 9,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  },
+  {
+    "season": 2021,
+    "manager": "fernando",
+    "points": 0,
+    "source": "imported",
+    "detail": {
+      "reg_rank": 10,
+      "winning_season": false,
+      "playoff_finish": null,
+      "most_points": false,
+      "mvp_pick": false,
+      "best_transaction": false,
+      "longest_streak": false
+    }
+  }
+]
