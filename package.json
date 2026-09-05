@@ -1,0 +1,10 @@
+{
+  "name": "fantasy-league-almanac",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "yahoo:auth": "node scripts/yahoo-auth.mjs",
+    "yahoo:discover": "node scripts/yahoo-discover.mjs"
+  }
+}
