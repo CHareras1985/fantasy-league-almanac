@@ -21,7 +21,7 @@ export const SEASON_RECAPS: Record<number, Record<Persona, string>> = {
     bored:
       "This is apparently the first year. There were nine of them, plus a pretend tenth person. Tony won the most games and then won the final thing too. Somebody named Marcil lost almost every week, which everyone still brings up.",
     partner:
-      "The very first season, so this is where it all started. Tony won everything, which he has never once let anyone forget. And yes, Marcil went 1 and 12 — I know because you told that story at three separate dinners.",
+      "This is the season it started — the year you discovered fantasy football and I lost my Sundays. Somebody named Tony won, apparently a very big deal. What I remember is you turning the spare bedroom into a “draft room” that is, to this day, still a draft room.",
   },
   2010: {
     analyst:
@@ -30,7 +30,7 @@ export const SEASON_RECAPS: Record<number, Record<Persona, string>> = {
     bored:
       "Costa was good for a long time and then lost when it counted. Marcil got the trophy this year. I'm told a running back did well, but I could not tell you which team he was even on.",
     partner:
-      "Costa was “robbed,” according to the group chat that lit up my phone all December. Marcil won it. There was a running back involved who was apparently very important.",
+      "Marcil won this one, which mattered enormously to you and to no one else in this house. You watched every minute of the playoffs from the couch while the gutters you promised to clean quietly filled with leaves.",
   },
   2011: {
     analyst:
@@ -39,7 +39,7 @@ export const SEASON_RECAPS: Record<number, Record<Persona, string>> = {
     bored:
       "George won the most games but not the important game. Fernando won that one. A quarterback threw for a large number for Tony. There is now a Chris.",
     partner:
-      "George was the best “on paper” — a phrase I have heard so many times. Fernando actually won. This is the year Chris joined, which means one more person in the draft group text.",
+      "Fernando won. George “should have” won — I heard the phrase “best team on paper” more times that fall than I heard my own name. You took a call about a trade during my sister's engagement dinner and thought I didn't notice.",
   },
   2012: {
     analyst:
@@ -48,7 +48,7 @@ export const SEASON_RECAPS: Record<number, Record<Persona, string>> = {
     bored:
       "Dean was good and then wasn't. Tony won. Two different people had the same win streak, which felt like it mattered to everyone at the table.",
     partner:
-      "Dean “had it in the bag” and then finished fourth, and I heard about it for weeks. Tony won. You spent that whole third-place game pacing around the kitchen.",
+      "Tony won, over Marcil. You explained to me that Dean “had the best team and blew it” — on what was supposed to be date night — and then checked your phone through the entire movie anyway.",
   },
   2013: {
     analyst:
@@ -57,7 +57,7 @@ export const SEASON_RECAPS: Record<number, Record<Persona, string>> = {
     bored:
       "A lot of them had the same record, which caused a lot of discussion. Costa won. Somebody scored the most points and still lost more than they won, and this is apparently very funny.",
     partner:
-      "Everyone was tied, so draft-night math came up at brunch. Costa won. You keep bringing up that Peyton Manning “had the greatest season ever,” as if I was there.",
+      "Costa won. Everyone was tied going in, so instead of talking to me at brunch you did math on a napkin. That was the fall I stopped asking how your weekend was going — I already knew. The games were on.",
   },
   2014: {
     analyst:
@@ -66,7 +66,7 @@ export const SEASON_RECAPS: Record<number, Record<Persona, string>> = {
     bored:
       "Fernando won a lot and then won the last one. Fink got close. Paul stopped playing after this year, which no one seems sad about.",
     partner:
-      "Fernando won again. This was Paul's last season, so at least that's one fewer person you text about “waiver claims” at 11pm.",
+      "Fernando won again. Paul finally quit the league — I was thrilled, briefly, until you explained someone always replaces them. You missed my cousin's baby shower for a 1pm kickoff you “couldn't move.”",
   },
   2015: {
     analyst:
@@ -75,7 +75,7 @@ export const SEASON_RECAPS: Record<number, Record<Persona, string>> = {
     bored:
       "Tony was the best and did not win. Marcil won. A new person, Matt, did surprisingly okay. Wally added a quarterback from the pile of unused players and it worked out.",
     partner:
-      "Tony was “the best team that didn't win,” quote unquote. Marcil won. Matt's first year — another draft invite. Wally “won the waiver wire” all offseason, whatever that means.",
+      "Marcil won. A new guy, Matt, joined — another name I have to keep straight, another person you text at midnight about “waivers.” We were supposed to start planning the trip that year. We started planning it three years later.",
   },
   2016: {
     analyst:
@@ -84,7 +84,7 @@ export const SEASON_RECAPS: Record<number, Record<Persona, string>> = {
     bored:
       "Wally was the best this year and, for once, also won. He beat Fernando. Dean had the best-drafted guy and it didn't help.",
     partner:
-      "Wally's “best year ever,” which he mentions annually. He beat Fernando in the final. You watched every minute of it instead of coming to my cousin's thing.",
+      "Wally won, and he still brings it up, and you still let him. You watched the entire final instead of coming to my cousin's thing, and told me it was “basically the Super Bowl,” as if that settled it.",
   },
   2017: {
     analyst:
@@ -93,7 +93,7 @@ export const SEASON_RECAPS: Record<number, Record<Persona, string>> = {
     bored:
       "Chris was finally good at the regular part. Dean won the end part. Tony scored the most, again, which he'll tell you about. Mike is new; Wally left.",
     partner:
-      "Chris was “due,” and then Dean won instead. Mike joined this year — yes, another one. Wally's last season, so the group chat lost a member and gained none.",
+      "Dean won. Mike joined — yes, the league grew again. That was the year the group chat started buzzing at 11pm every night, and you'd reach over and check it, every time, before you'd say goodnight.",
   },
   2018: {
     analyst:
@@ -102,7 +102,7 @@ export const SEASON_RECAPS: Record<number, Record<Persona, string>> = {
     bored:
       "Dean scored more than anyone ever had and did not win. Mike won, and he's fairly new. Someone found a quarterback named Mahomes in the leftovers and he was the best one, which everybody found outrageous.",
     partner:
-      "Dean scored “the most points in league history” and lost, and I have a very detailed memory of that Sunday. Matt “stole Mahomes,” a sentence said to me many times. Mike won.",
+      "Mike won. You still bring up Dean “scoring the most points in history and losing,” usually while something else needs doing. Somebody “stole Mahomes,” a phrase that meant nothing to me and still cost us a Sunday.",
   },
   2019: {
     analyst:
@@ -111,7 +111,7 @@ export const SEASON_RECAPS: Record<number, Record<Persona, string>> = {
     bored:
       "Mike won eleven in a row, which is apparently a record, and then lost the last game to Matt. George had a running back who scored the most points ever recorded here. He did not win either.",
     partner:
-      "Mike won 11 straight and STILL didn't win it all — I heard about the injustice. George had “the greatest fantasy season of all time” and lost. Matt won. Draft night is a formal event now, by the way.",
+      "Matt won. Mike went on some historic win streak — I know because you narrated it, live, from the couch. Draft night became a formal event this year: snacks, a spreadsheet, and a “do not disturb” sign you were only half joking about.",
   },
   2020: {
     analyst:
@@ -120,7 +120,7 @@ export const SEASON_RECAPS: Record<number, Record<Persona, string>> = {
     bored:
       "Marcil lost one time all year and won the trophy. He beat Tony. Two other people got smaller awards that I did not follow.",
     partner:
-      "Marcil went 12 and 1 — a number I know by heart now. He beat Tony. This was the pandemic year, so you were home for every single game.",
+      "Marcil won, 12 and 1 — a number I could recite in my sleep, because you did. This was the year we were all stuck at home anyway, so you had an excuse. You used it every single Sunday, all season.",
   },
   2021: {
     analyst:
@@ -129,6 +129,6 @@ export const SEASON_RECAPS: Record<number, Record<Persona, string>> = {
     bored:
       "This year had more weeks for some reason. Fink was the best in the regular part. Costa won the final by basically nothing — like one point — over Marcil. There was a receiver named Kupp.",
     partner:
-      "Costa beat Marcil by ONE POINT and I watched a grown adult lie on the floor. 115.4 to 115.1 — I can recite it. Also the season got longer this year, so: more Sundays.",
+      "Costa beat Marcil by one point and you lay down on the floor. The season also got longer this year — more weeks, more Sundays, more of me finishing dinner alone while you “just check the scores real quick.”",
   },
 };
