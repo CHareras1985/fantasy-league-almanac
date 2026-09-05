@@ -25,6 +25,7 @@ const NAV = [
   { href: "/managers", label: "Managers" },
   { href: "/records", label: "Records" },
   { href: "/legends", label: "All-Time" },
+  { href: "/scoring", label: "Scoring" },
 ];
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
