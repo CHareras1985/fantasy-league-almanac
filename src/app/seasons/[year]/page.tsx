@@ -74,8 +74,8 @@ export default async function SeasonPage({ params }: PageProps<"/seasons/[year]"
       />
 
       {/* Champion banner */}
-      <section className="rounded-xl border border-gold/40 bg-gradient-to-br from-gold/15 to-transparent p-6">
-        <div className="display text-xs uppercase tracking-widest text-gold">Champion</div>
+      <section className="rounded-xl border border-champ/40 bg-gradient-to-br from-champ/15 to-transparent p-6">
+        <div className="display text-xs uppercase tracking-widest text-champ">Champion</div>
         <div className="display mt-1 text-4xl text-ink">
           {d.playoffs?.champion ? (
             <ManagerLink id={d.playoffs.champion} name={managerName(d.playoffs.champion)} />
@@ -318,7 +318,7 @@ export default async function SeasonPage({ params }: PageProps<"/seasons/[year]"
           </div>
         </Card>
         <p className="mt-2 text-xs text-ink-muted">
-          <Link href="/legends" className="hover:text-turf">
+          <Link href="/legends" className="hover:text-accent">
             Full all-time race →
           </Link>
         </p>
@@ -341,11 +341,11 @@ function Stat({
   return (
     <div
       className={`rounded-lg border p-3 ${
-        accent ? "border-turf/40 bg-turf/10" : "border-border bg-paper-elevated"
+        accent ? "border-accent/40 bg-accent/10" : "border-border bg-paper-elevated"
       }`}
     >
       <div className="text-[11px] uppercase tracking-wide text-ink-muted">{label}</div>
-      <div className={`display mt-1 text-lg ${accent ? "text-turf" : "text-ink"}`}>{value}</div>
+      <div className={`display mt-1 text-lg ${accent ? "text-accent" : "text-ink"}`}>{value}</div>
       {sub && <div className="text-xs text-ink-muted">{sub}</div>}
     </div>
   );

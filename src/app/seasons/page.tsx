@@ -17,7 +17,7 @@ export default function SeasonsPage() {
             <Link
               key={s.year}
               href={`/seasons/${s.year}`}
-              className="rounded-lg border border-border bg-paper-elevated p-4 transition-colors hover:border-turf"
+              className="rounded-lg border border-border bg-paper-elevated p-4 transition-colors hover:border-accent"
             >
               <div className="flex items-baseline justify-between">
                 <span className="display text-2xl text-ink">{s.year}</span>
@@ -49,7 +49,7 @@ function Row({ label, value, accent }: { label: string; value: string; accent?: 
   return (
     <div className="flex justify-between gap-3">
       <dt className="text-ink-muted">{label}</dt>
-      <dd className={accent ? "font-medium text-gold" : "font-medium"}>{value}</dd>
+      <dd className={accent ? "font-medium text-champ" : "font-medium"}>{value}</dd>
     </div>
   );
 }

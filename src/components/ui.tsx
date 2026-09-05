@@ -27,7 +27,7 @@ export function SectionTitle({ children }: { children: ReactNode }) {
 }
 
 const FINISH_STYLE: Record<string, string> = {
-  champion: "bg-gold/20 text-gold border-gold/40",
+  champion: "bg-champ/20 text-champ border-champ/40",
   runner_up: "border-border text-ink-muted",
   third: "border-border text-ink-muted",
 };
@@ -51,7 +51,7 @@ export function FinishBadge({ finish }: { finish: PlayoffFinish }) {
 export function ManagerLink({ id, name }: { id: string | null; name: string }) {
   if (!id) return <span>{name}</span>;
   return (
-    <Link href={`/managers/${id}`} className="hover:text-turf">
+    <Link href={`/managers/${id}`} className="hover:text-accent">
       {name}
     </Link>
   );

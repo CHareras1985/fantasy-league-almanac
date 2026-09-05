@@ -146,7 +146,7 @@ export default function ScoringPage() {
         <Card>
           <p className="text-sm leading-relaxed">
             In{" "}
-            <Link href="/seasons/2021" className="text-turf hover:underline">
+            <Link href="/seasons/2021" className="text-accent hover:underline">
               2021
             </Link>
             , Costa earned <span className="font-medium">11 award points</span>: Winning Season (1) +
@@ -160,7 +160,7 @@ export default function ScoringPage() {
         <Card>
           <p className="text-sm leading-relaxed">
             Award points accumulate across every season into the{" "}
-            <Link href="/legends" className="text-turf hover:underline">
+            <Link href="/legends" className="text-accent hover:underline">
               Legends race
             </Link>
             . Every manager who has ever earned points is in it — alumni included.

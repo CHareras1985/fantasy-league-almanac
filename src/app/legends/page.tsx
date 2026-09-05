@@ -84,7 +84,7 @@ export default function LegendsPage() {
                       <td className="whitespace-nowrap px-3 py-2 font-medium">
                         <ManagerLink id={s.manager.id} name={s.manager.name} />
                       </td>
-                      <td className="w-full px-3 py-2 text-turf">
+                      <td className="w-full px-3 py-2 text-accent">
                         <Sparkline
                           values={s.cumulative}
                           max={progMax}
@@ -150,7 +150,7 @@ export default function LegendsPage() {
               className="flex items-baseline justify-between rounded border border-border bg-paper-elevated px-3 py-2 text-sm"
             >
               <span className="text-ink-muted">{year}</span>
-              <span className="font-medium text-gold">
+              <span className="font-medium text-champ">
                 {managerName(detail.playoffs?.champion)}
               </span>
             </div>

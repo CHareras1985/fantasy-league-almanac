@@ -23,7 +23,7 @@ export default function RecordsPage() {
                 <div className="text-xs uppercase tracking-wide text-ink-muted">{e.label}</div>
                 <div className="display mt-1 text-lg text-ink">
                   {e.href ? (
-                    <Link href={e.href} className="hover:text-turf">
+                    <Link href={e.href} className="hover:text-accent">
                       {e.holder}
                     </Link>
                   ) : (

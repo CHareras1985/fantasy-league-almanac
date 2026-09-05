@@ -34,7 +34,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="min-h-full flex flex-col">
         <header className="border-b border-border bg-paper-elevated">
           <div className="mx-auto flex max-w-5xl flex-wrap items-baseline gap-x-6 gap-y-1 px-4 py-3">
-            <Link href="/" className="display text-lg text-turf">
+            <Link href="/" className="display text-lg text-accent">
               The Almanac
             </Link>
             <nav className="flex gap-4 text-sm text-ink-muted">

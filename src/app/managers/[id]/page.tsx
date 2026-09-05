@@ -68,7 +68,7 @@ export default async function ManagerPage({ params }: PageProps<"/managers/[id]"
                   <span className="text-ink-muted">Best season</span>
                   <span className="font-medium">
                     {bestSeason.award_points} award pts ·{" "}
-                    <Link href={`/seasons/${bestSeason.year}`} className="hover:text-turf">
+                    <Link href={`/seasons/${bestSeason.year}`} className="hover:text-accent">
                       {bestSeason.year}
                     </Link>
                   </span>
@@ -106,7 +106,7 @@ export default async function ManagerPage({ params }: PageProps<"/managers/[id]"
                 {d.rows.map((r) => (
                   <tr key={r.year} className="border-b border-border/60 last:border-0">
                     <td className="px-3 py-2 font-medium">
-                      <Link href={`/seasons/${r.year}`} className="hover:text-turf">
+                      <Link href={`/seasons/${r.year}`} className="hover:text-accent">
                         {r.year}
                       </Link>
                     </td>
@@ -159,7 +159,7 @@ export default async function ManagerPage({ params }: PageProps<"/managers/[id]"
               {d.mvpPicks.map((p) => (
                 <li key={p.season} className="flex justify-between gap-3">
                   <span>
-                    <Link href={`/seasons/${p.season}`} className="text-ink-muted hover:text-turf">
+                    <Link href={`/seasons/${p.season}`} className="text-ink-muted hover:text-accent">
                       {p.season}
                     </Link>{" "}
                     <span className="font-medium">{p.player}</span>
@@ -185,7 +185,7 @@ export default async function ManagerPage({ params }: PageProps<"/managers/[id]"
                 {d.bestPicks.map((p) => (
                   <tr key={p.season} className="border-b border-border/60 last:border-0">
                     <td className="px-3 py-1.5 text-ink-muted">
-                      <Link href={`/seasons/${p.season}`} className="hover:text-turf">
+                      <Link href={`/seasons/${p.season}`} className="hover:text-accent">
                         {p.season}
                       </Link>
                     </td>
@@ -208,7 +208,7 @@ function Stat({ label, value, accent }: { label: string; value: string; accent?:
   return (
     <div className="rounded-lg border border-border bg-paper-elevated p-3">
       <div className="text-xs uppercase tracking-wide text-ink-muted">{label}</div>
-      <div className={`display mt-1 text-2xl ${accent ? "text-turf" : "text-ink"}`}>{value}</div>
+      <div className={`display mt-1 text-2xl ${accent ? "text-accent" : "text-ink"}`}>{value}</div>
     </div>
   );
 }

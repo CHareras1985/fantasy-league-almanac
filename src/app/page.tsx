@@ -25,7 +25,7 @@ export default function HomePage() {
       <section className="grid gap-4 sm:grid-cols-3">
         <Card>
           <div className="text-xs uppercase tracking-wide text-ink-muted">All-time leader</div>
-          <div className="display mt-1 text-2xl text-turf">{top.manager.name}</div>
+          <div className="display mt-1 text-2xl text-accent">{top.manager.name}</div>
           <div className="text-sm text-ink-muted">{top.points} award points</div>
         </Card>
         <Card>
@@ -96,11 +96,11 @@ export default function HomePage() {
               <Link
                 key={s.year}
                 href={`/seasons/${s.year}`}
-                className="rounded-lg border border-border bg-paper-elevated p-4 transition-colors hover:border-turf"
+                className="rounded-lg border border-border bg-paper-elevated p-4 transition-colors hover:border-accent"
               >
                 <div className="display text-xl text-ink">{s.year}</div>
                 <div className="mt-1 text-sm">
-                  <span className="text-gold">🏆 {managerName(d.playoffs?.champion)}</span>
+                  <span className="text-champ">🏆 {managerName(d.playoffs?.champion)}</span>
                 </div>
                 <div className="text-xs text-ink-muted">
                   Reg. season: {managerName(d.standings[0]?.manager)} ·{" "}

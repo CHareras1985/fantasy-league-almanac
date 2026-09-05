@@ -1,15 +1,15 @@
 @import "tailwindcss";
 
+/* Modern slate + indigo palette — deliberately distinct from Simple Picks. */
 :root {
-  --paper: #faf6ec;
+  --paper: #f7f8fa;
   --paper-elevated: #ffffff;
-  --ink: #23201b;
-  --ink-muted: #736a5a;
-  --turf: #1f7a4d;
-  --turf-dark: #145c39;
-  --flag: #c1272d;
-  --gold: #c9962c;
-  --border: #e6dcc6;
+  --ink: #181b20;
+  --ink-muted: #616872;
+  --accent: #4f46e5;
+  --accent-deep: #3730a3;
+  --champ: #b4801b;
+  --border: #e5e8ec;
 }
 
 @theme inline {
@@ -17,10 +17,9 @@
   --color-paper-elevated: var(--paper-elevated);
   --color-ink: var(--ink);
   --color-ink-muted: var(--ink-muted);
-  --color-turf: var(--turf);
-  --color-turf-dark: var(--turf-dark);
-  --color-flag: var(--flag);
-  --color-gold: var(--gold);
+  --color-accent: var(--accent);
+  --color-accent-deep: var(--accent-deep);
+  --color-champ: var(--champ);
   --color-border: var(--border);
   --font-sans: var(--font-geist-sans);
   --font-display: var(--font-oswald);
@@ -28,15 +27,14 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --paper: #1a1713;
-    --paper-elevated: #24201a;
-    --ink: #f3ede0;
-    --ink-muted: #a89c86;
-    --turf: #3fae74;
-    --turf-dark: #2f8f5c;
-    --flag: #e35a5f;
-    --gold: #dcb24a;
-    --border: #3a3327;
+    --paper: #0f1116;
+    --paper-elevated: #181b22;
+    --ink: #e7e9ee;
+    --ink-muted: #98a0ad;
+    --accent: #8b90f7;
+    --accent-deep: #a5b4fc;
+    --champ: #dca94a;
+    --border: #242932;
   }
 }
 
@@ -44,6 +42,7 @@ body {
   background: var(--paper);
   color: var(--ink);
   font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 .display {
