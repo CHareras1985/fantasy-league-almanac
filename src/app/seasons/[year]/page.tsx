@@ -11,6 +11,7 @@ import {
   type GameSide,
 } from "@/lib/data";
 import { SEASON_RECAPS } from "@/lib/recaps";
+import { RecapPicker } from "@/components/RecapPicker";
 import { PageHeading, Card, SectionTitle, FinishBadge, ManagerLink } from "@/components/ui";
 
 export function generateStaticParams() {
@@ -87,7 +88,7 @@ export default async function SeasonPage({ params }: PageProps<"/seasons/[year]"
           def. {managerName(d.playoffs?.runner_up)} in the final
           {d.playoffs?.third && <> · {managerName(d.playoffs.third)} took third</>}
         </div>
-        {recap && <p className="mt-4 max-w-2xl text-sm leading-relaxed text-ink">{recap}</p>}
+        {recap && <RecapPicker recaps={recap} />}
       </section>
 
       {/* Superlatives */}
