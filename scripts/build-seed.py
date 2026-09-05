@@ -284,6 +284,7 @@ for tab in SEASON_TABS:
                 'mvp_pick': m == mvp_mgr,
                 'best_transaction': m == trans_mgr,
                 'longest_streak': m in streak_mgrs,
+                'streak_length': streak_len if m in streak_mgrs else None,
             },
         })
 

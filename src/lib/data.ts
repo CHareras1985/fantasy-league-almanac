@@ -57,6 +57,7 @@ export interface SeasonAwardDetail {
   mvp_pick: boolean;
   best_transaction: boolean;
   longest_streak: boolean;
+  streak_length: number | null;
 }
 
 export interface SeasonAward {
@@ -266,17 +267,6 @@ export interface ManagerDetail {
   bestTransactions: Transaction[];
 }
 
-const AWARD_FLAG_LABEL: [keyof SeasonAwardDetail | "reg1" | "reg2" | "reg3", string, number][] = [
-  ["reg1", "Regular Season 1st", 4],
-  ["reg2", "Regular Season 2nd", 3],
-  ["reg3", "Regular Season 3rd", 2],
-  ["winning_season", "Winning Season", 1],
-  ["most_points", "Most PTS Scored", 3],
-  ["mvp_pick", "M.V.P. Pick", 2],
-  ["best_transaction", "Best Transaction", 2],
-  ["longest_streak", "Longest Win Streak", 3],
-];
-
 export function managerDetail(id: string): ManagerDetail {
   const manager = managerById.get(id)!;
   const st = standings.filter((s) => s.manager === id).sort((a, b) => a.season - b.season);
@@ -323,7 +313,6 @@ export function managerDetail(id: string): ManagerDetail {
     if (a.detail.best_transaction) bump("Best Transaction", 2);
     if (a.detail.longest_streak) bump("Longest Win Streak", 3);
   }
-  void AWARD_FLAG_LABEL;
 
   return {
     manager,
@@ -354,6 +343,275 @@ export function managerDetail(id: string): ManagerDetail {
       .filter((t) => t.manager === id)
       .sort((a, b) => a.season - b.season),
   };
+}
+
+// ---------------------------------------------------- race progression ----
+export interface RaceProgression {
+  years: number[];
+  series: { manager: Manager; cumulative: number[] }[];
+}
+
+/** Cumulative award points per manager after each season, in order. */
+export function raceProgression(): RaceProgression {
+  const totalByMgr = new Map<string, number>();
+  for (const a of seasonAwards) totalByMgr.set(a.manager, (totalByMgr.get(a.manager) ?? 0) + a.points);
+  const ids = [...totalByMgr.entries()].sort((a, b) => b[1] - a[1]).map(([id]) => id);
+
+  const running = new Map<string, number>(ids.map((id) => [id, 0]));
+  const series = new Map<string, number[]>(ids.map((id) => [id, []]));
+  for (const year of YEARS) {
+    for (const a of seasonAwards.filter((x) => x.season === year)) {
+      running.set(a.manager, (running.get(a.manager) ?? 0) + a.points);
+    }
+    for (const id of ids) series.get(id)!.push(running.get(id) ?? 0);
+  }
+  return {
+    years: [...YEARS],
+    series: ids.map((id) => ({ manager: managerById.get(id)!, cumulative: series.get(id)! })),
+  };
+}
+
+// ---------------------------------------------------- season superlatives ----
+export interface GameMargin {
+  game: "Championship" | "Third-place";
+  winner: string | null;
+  loser: string | null;
+  winnerPts: number | null;
+  loserPts: number | null;
+  margin: number;
+}
+
+export interface SeasonSuperlatives {
+  topScorer: { manager: string; points: number } | null;
+  lowScorer: { manager: string; points: number } | null;
+  blowout: GameMargin | null;
+  nailbiter: GameMargin | null;
+  streak: { managers: string[]; length: number } | null;
+  bestValue: { manager: string; player: string | null; points: number | null } | null;
+  leagueRecordPF: boolean; // this season's top PF is the highest through this year
+}
+
+function gameMargin(
+  label: "Championship" | "Third-place",
+  sides: GameSide[] | null | undefined,
+): GameMargin | null {
+  if (!sides || sides.length !== 2) return null;
+  const [a, b] = [...sides].sort((x, y) => (y.points ?? 0) - (x.points ?? 0));
+  return {
+    game: label,
+    winner: a.manager,
+    loser: b.manager,
+    winnerPts: a.points,
+    loserPts: b.points,
+    margin: Math.round(((a.points ?? 0) - (b.points ?? 0)) * 10) / 10,
+  };
+}
+
+export function seasonSuperlatives(year: number): SeasonSuperlatives {
+  const st = standings.filter((s) => s.season === year);
+  const byPf = [...st].sort((a, b) => b.points_for - a.points_for);
+  const top = byPf[0];
+  const low = byPf[byPf.length - 1];
+
+  const p = playoffResults.find((x) => x.season === year);
+  const games = [
+    gameMargin("Championship", p?.championship_game),
+    gameMargin("Third-place", p?.third_place_game),
+  ].filter((g): g is GameMargin => g !== null && g.winner !== null && g.loser !== null);
+  const blowout = games.length ? [...games].sort((a, b) => b.margin - a.margin)[0] : null;
+  const nailbiter = games.length ? [...games].sort((a, b) => a.margin - b.margin)[0] : null;
+
+  const streakRows = seasonAwards.filter((a) => a.season === year && a.detail.longest_streak);
+  const streak = streakRows.length
+    ? { managers: streakRows.map((r) => r.manager), length: streakRows[0].detail.streak_length ?? 0 }
+    : null;
+
+  const best = draftHighlights
+    .filter((d) => d.season === year && d.kind === "best")
+    .sort((a, b) => (b.player_points ?? 0) - (a.player_points ?? 0))[0];
+
+  const priorMax = Math.max(
+    0,
+    ...standings.filter((s) => s.season < year).map((s) => s.points_for),
+  );
+
+  return {
+    topScorer: top ? { manager: top.manager, points: top.points_for } : null,
+    lowScorer: low ? { manager: low.manager, points: low.points_for } : null,
+    blowout,
+    nailbiter,
+    streak,
+    bestValue: best
+      ? { manager: best.manager, player: best.player, points: best.player_points }
+      : null,
+    leagueRecordPF: !!top && top.points_for > priorMax && year !== YEARS[0],
+  };
+}
+
+// ---------------------------------------------------- all-time records ----
+export interface RecordEntry {
+  label: string;
+  holder: string; // display text (may be multiple names)
+  detail: string;
+  year?: number;
+  href?: string;
+}
+
+export function allTimeRecords(): { group: string; entries: RecordEntry[] }[] {
+  const st = [...standings];
+  const hiPF = [...st].sort((a, b) => b.points_for - a.points_for)[0];
+  const loPF = [...st].sort((a, b) => a.points_for - b.points_for)[0];
+  const hiAward = [...seasonAwards].sort((a, b) => b.points - a.points)[0];
+
+  const margins: (GameMargin & { year: number })[] = [];
+  for (const p of playoffResults) {
+    for (const g of [
+      gameMargin("Championship", p.championship_game),
+      gameMargin("Third-place", p.third_place_game),
+    ]) {
+      if (g && g.winner && g.loser) margins.push({ ...g, year: p.season });
+    }
+  }
+  const biggestGame = [...margins].sort((a, b) => b.margin - a.margin)[0];
+  const closestGame = [...margins].sort((a, b) => a.margin - b.margin)[0];
+
+  const streaks = seasonAwards
+    .filter((a) => a.detail.longest_streak && a.detail.streak_length != null)
+    .sort((a, b) => (b.detail.streak_length ?? 0) - (a.detail.streak_length ?? 0));
+  const maxStreak = streaks[0]?.detail.streak_length ?? 0;
+  const streakHolders = streaks.filter((s) => s.detail.streak_length === maxStreak);
+
+  const bestPickEver = draftHighlights
+    .filter((d) => d.kind === "best")
+    .sort((a, b) => (b.player_points ?? 0) - (a.player_points ?? 0))[0];
+  const bustEver = draftHighlights
+    .filter((d) => d.kind === "worst")
+    .sort((a, b) => (a.player_points ?? 0) - (b.player_points ?? 0))[0];
+  const txEver = transactions
+    .filter((t) => t.player_points != null)
+    .sort((a, b) => (b.player_points ?? 0) - (a.player_points ?? 0))[0];
+  const allStarEver = [...allStarSlots]
+    .filter((a) => a.player_points != null)
+    .sort((a, b) => (b.player_points ?? 0) - (a.player_points ?? 0))[0];
+
+  const race = awardRace();
+  const titles = race.filter((r) => r.titles === Math.max(...race.map((x) => x.titles)));
+
+  const regFirsts = new Map<string, number>();
+  for (const a of seasonAwards) if (a.detail.reg_rank === 1) regFirsts.set(a.manager, (regFirsts.get(a.manager) ?? 0) + 1);
+  const maxRegFirst = Math.max(...regFirsts.values());
+  const regFirstHolders = [...regFirsts.entries()].filter(([, n]) => n === maxRegFirst);
+
+  const mvpCounts = new Map<string, number>();
+  for (const d of draftHighlights) if (d.kind === "mvp") mvpCounts.set(d.manager, (mvpCounts.get(d.manager) ?? 0) + 1);
+  const maxMvp = Math.max(...mvpCounts.values());
+  const mvpHolders = [...mvpCounts.entries()].filter(([, n]) => n === maxMvp);
+
+  return [
+    {
+      group: "Scoring",
+      entries: [
+        {
+          label: "Highest-scoring season",
+          holder: managerName(hiPF.manager),
+          detail: `${fmtPts(hiPF.points_for)} points`,
+          year: hiPF.season,
+          href: `/seasons/${hiPF.season}`,
+        },
+        {
+          label: "Lowest-scoring season",
+          holder: managerName(loPF.manager),
+          detail: `${fmtPts(loPF.points_for)} points`,
+          year: loPF.season,
+          href: `/seasons/${loPF.season}`,
+        },
+        {
+          label: "Highest-scoring All-Star",
+          holder: allStarEver ? `${allStarEver.player} (${managerName(allStarEver.manager)})` : "—",
+          detail: allStarEver ? `${fmtPts(allStarEver.player_points, 0)} pts · ${allStarEver.position}` : "",
+          year: allStarEver?.season,
+          href: allStarEver ? `/seasons/${allStarEver.season}` : undefined,
+        },
+      ],
+    },
+    {
+      group: "Playoff games",
+      entries: [
+        {
+          label: "Biggest final margin",
+          holder: `${managerName(biggestGame.winner)} over ${managerName(biggestGame.loser)}`,
+          detail: `${fmtPts(biggestGame.winnerPts)}–${fmtPts(biggestGame.loserPts)} · ${biggestGame.game} game · +${biggestGame.margin}`,
+          year: biggestGame.year,
+          href: `/seasons/${biggestGame.year}`,
+        },
+        {
+          label: "Closest final",
+          holder: `${managerName(closestGame.winner)} over ${managerName(closestGame.loser)}`,
+          detail: `${fmtPts(closestGame.winnerPts)}–${fmtPts(closestGame.loserPts)} · ${closestGame.game} game · +${closestGame.margin}`,
+          year: closestGame.year,
+          href: `/seasons/${closestGame.year}`,
+        },
+      ],
+    },
+    {
+      group: "Streaks & dominance",
+      entries: [
+        {
+          label: "Longest win streak",
+          holder: streakHolders.map((s) => `${managerName(s.manager)} (${s.season})`).join(", "),
+          detail: `${maxStreak} straight`,
+        },
+        {
+          label: "Most award points in a season",
+          holder: managerName(hiAward.manager),
+          detail: `${hiAward.points} points`,
+          year: hiAward.season,
+          href: `/seasons/${hiAward.season}`,
+        },
+        {
+          label: "Most championships",
+          holder: titles.map((t) => t.manager.name).join(", "),
+          detail: `${titles[0].titles} titles`,
+        },
+        {
+          label: "Most regular-season crowns",
+          holder: regFirstHolders.map(([id]) => managerName(id)).join(", "),
+          detail: `${maxRegFirst} times`,
+        },
+      ],
+    },
+    {
+      group: "Draft & transactions",
+      entries: [
+        {
+          label: "Best draft pick",
+          holder: bestPickEver ? `${bestPickEver.player} (${managerName(bestPickEver.manager)})` : "—",
+          detail: bestPickEver ? `${fmtPts(bestPickEver.player_points, 0)} pts` : "",
+          year: bestPickEver?.season,
+          href: bestPickEver ? `/seasons/${bestPickEver.season}` : undefined,
+        },
+        {
+          label: "Biggest bust",
+          holder: bustEver ? `${bustEver.player} (${managerName(bustEver.manager)})` : "—",
+          detail: bustEver ? `${fmtPts(bustEver.player_points, 0)} pts · “Plexi” pick` : "",
+          year: bustEver?.season,
+          href: bustEver ? `/seasons/${bustEver.season}` : undefined,
+        },
+        {
+          label: "Best transaction",
+          holder: txEver ? `${txEver.player} (${managerName(txEver.manager)})` : "—",
+          detail: txEver ? `${fmtPts(txEver.player_points, 0)} pts` : "",
+          year: txEver?.season,
+          href: txEver ? `/seasons/${txEver.season}` : undefined,
+        },
+        {
+          label: "Most M.V.P. picks",
+          holder: mvpHolders.map(([id]) => managerName(id)).join(", "),
+          detail: `${maxMvp} times`,
+        },
+      ],
+    },
+  ];
 }
 
 // ---------------------------------------------------- formatting ----

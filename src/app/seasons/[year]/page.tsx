@@ -1,7 +1,16 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { YEARS, seasonDetail, managerName, fmtPts, type GameSide } from "@/lib/data";
+import {
+  YEARS,
+  seasonDetail,
+  seasonSuperlatives,
+  raceProgression,
+  managerName,
+  fmtPts,
+  type GameSide,
+} from "@/lib/data";
+import { SEASON_RECAPS } from "@/lib/recaps";
 import { PageHeading, Card, SectionTitle, FinishBadge, ManagerLink } from "@/components/ui";
 
 export function generateStaticParams() {
@@ -21,14 +30,23 @@ export default async function SeasonPage({ params }: PageProps<"/seasons/[year]"
   if (!YEARS.includes(y)) notFound();
 
   const d = seasonDetail(y);
+  const sup = seasonSuperlatives(y);
   const idx = YEARS.indexOf(y);
   const prev = YEARS[idx - 1];
   const next = YEARS[idx + 1];
-  const awardOrder = [...d.standings].sort(
-    (a, b) =>
-      (d.awardsByManager.get(b.manager)?.points ?? 0) -
-      (d.awardsByManager.get(a.manager)?.points ?? 0),
-  );
+  const recap = SEASON_RECAPS[y];
+
+  // all-time race standing through this season
+  const prog = raceProgression();
+  const raceRows = prog.series
+    .map((s) => ({
+      manager: s.manager,
+      total: s.cumulative[idx],
+      thisSeason: s.cumulative[idx] - (idx > 0 ? s.cumulative[idx - 1] : 0),
+    }))
+    .filter((r) => r.total > 0)
+    .sort((a, b) => b.total - a.total)
+    .slice(0, 5);
 
   return (
     <div className="space-y-10">
@@ -53,21 +71,56 @@ export default async function SeasonPage({ params }: PageProps<"/seasons/[year]"
       <PageHeading
         kicker={`${d.season.team_count} teams · ${d.season.regular_weeks}-game regular season`}
         title={`${y} Season`}
-        sub={d.season.notes ?? undefined}
       />
 
-      {/* Playoffs */}
-      <section>
-        <SectionTitle>Playoffs</SectionTitle>
-        <div className="grid gap-3 sm:grid-cols-3">
-          <PodiumCard place="Champion" manager={d.playoffs?.champion} accent />
-          <PodiumCard place="Runner-up" manager={d.playoffs?.runner_up} />
-          <PodiumCard place="3rd place" manager={d.playoffs?.third} />
+      {/* Champion banner */}
+      <section className="rounded-xl border border-gold/40 bg-gradient-to-br from-gold/15 to-transparent p-6">
+        <div className="display text-xs uppercase tracking-widest text-gold">Champion</div>
+        <div className="display mt-1 text-4xl text-ink">
+          {d.playoffs?.champion ? (
+            <ManagerLink id={d.playoffs.champion} name={managerName(d.playoffs.champion)} />
+          ) : (
+            "—"
+          )}
         </div>
-        <div className="mt-3 grid gap-3 sm:grid-cols-2">
-          <GameCard title="Championship game" sides={d.playoffs?.championship_game} />
-          <GameCard title="Third-place game" sides={d.playoffs?.third_place_game} />
+        <div className="mt-1 text-sm text-ink-muted">
+          def. {managerName(d.playoffs?.runner_up)} in the final
+          {d.playoffs?.third && <> · {managerName(d.playoffs.third)} took third</>}
         </div>
+        {recap && <p className="mt-4 max-w-2xl text-sm leading-relaxed text-ink">{recap}</p>}
+      </section>
+
+      {/* Superlatives */}
+      <section className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+        {sup.topScorer && (
+          <Stat
+            label={sup.leagueRecordPF ? "Most points — league record" : "Most points"}
+            value={managerName(sup.topScorer.manager)}
+            sub={`${fmtPts(sup.topScorer.points, 0)} pts`}
+            accent={sup.leagueRecordPF}
+          />
+        )}
+        {sup.streak && (
+          <Stat
+            label="Longest win streak"
+            value={sup.streak.managers.map((m) => managerName(m)).join(" & ")}
+            sub={`${sup.streak.length} straight`}
+          />
+        )}
+        {sup.blowout && (
+          <Stat
+            label={`Biggest ${sup.blowout.game.toLowerCase()} margin`}
+            value={`${managerName(sup.blowout.winner)} +${sup.blowout.margin}`}
+            sub={`${fmtPts(sup.blowout.winnerPts, 0)}–${fmtPts(sup.blowout.loserPts, 0)}`}
+          />
+        )}
+        {sup.nailbiter && sup.nailbiter !== sup.blowout && (
+          <Stat
+            label={`Closest ${sup.nailbiter.game.toLowerCase()} game`}
+            value={`${managerName(sup.nailbiter.winner)} +${sup.nailbiter.margin}`}
+            sub={`${fmtPts(sup.nailbiter.winnerPts, 0)}–${fmtPts(sup.nailbiter.loserPts, 0)}`}
+          />
+        )}
       </section>
 
       {/* Standings + awards */}
@@ -112,27 +165,19 @@ export default async function SeasonPage({ params }: PageProps<"/seasons/[year]"
             </table>
           </div>
         </Card>
-        <p className="mt-2 text-xs text-ink-muted">
-          Award-point leader this season:{" "}
-          <span className="font-medium text-ink">
-            {managerName(awardOrder[0]?.manager)}
-          </span>{" "}
-          ({d.awardsByManager.get(awardOrder[0]?.manager ?? "")?.points ?? 0} pts)
-        </p>
       </section>
 
-      {/* Season awards */}
+      {/* Season awards + all-star */}
       <section className="grid gap-4 sm:grid-cols-2">
         <Card>
           <SectionTitle>Key awards</SectionTitle>
           <ul className="space-y-2 text-sm">
             <AwardLine
               label="Most PTS scored"
-              manager={d.standings.find((s) => d.awardsByManager.get(s.manager)?.detail.most_points)?.manager}
-              detail={fmtPts(
-                Math.max(...d.standings.map((s) => s.points_for)),
-                0,
-              )}
+              manager={
+                d.standings.find((s) => d.awardsByManager.get(s.manager)?.detail.most_points)?.manager
+              }
+              detail={fmtPts(Math.max(...d.standings.map((s) => s.points_for)), 0)}
             />
             <AwardLine
               label="M.V.P. pick"
@@ -148,23 +193,26 @@ export default async function SeasonPage({ params }: PageProps<"/seasons/[year]"
             <AwardLine
               label="Best transaction"
               manager={
-                d.standings.find((s) => d.awardsByManager.get(s.manager)?.detail.best_transaction)
-                  ?.manager
+                d.standings.find(
+                  (s) => d.awardsByManager.get(s.manager)?.detail.best_transaction,
+                )?.manager
               }
               detail={(() => {
-                const winner = d.standings.find(
+                const w = d.standings.find(
                   (s) => d.awardsByManager.get(s.manager)?.detail.best_transaction,
                 )?.manager;
-                const tx = d.transactions.find((t) => t.manager === winner);
+                const tx = d.transactions.find((t) => t.manager === w);
                 return tx?.player ? `${tx.player} · ${fmtPts(tx.player_points, 0)} pts` : undefined;
               })()}
             />
             <AwardLine
               label="Longest win streak"
               manager={
-                d.standings.find((s) => d.awardsByManager.get(s.manager)?.detail.longest_streak)
-                  ?.manager
+                d.standings.find(
+                  (s) => d.awardsByManager.get(s.manager)?.detail.longest_streak,
+                )?.manager
               }
+              detail={sup.streak ? `${sup.streak.length} straight` : undefined}
             />
           </ul>
         </Card>
@@ -194,6 +242,12 @@ export default async function SeasonPage({ params }: PageProps<"/seasons/[year]"
             </tbody>
           </table>
         </Card>
+      </section>
+
+      {/* Playoff game detail */}
+      <section className="grid gap-3 sm:grid-cols-2">
+        <GameCard title="Championship game" sides={d.playoffs?.championship_game} />
+        <GameCard title="Third-place game" sides={d.playoffs?.third_place_game} />
       </section>
 
       {/* Draft & transactions */}
@@ -231,29 +285,68 @@ export default async function SeasonPage({ params }: PageProps<"/seasons/[year]"
           </Card>
         )}
       </section>
+
+      {/* All-time race after this season */}
+      <section>
+        <SectionTitle>Legends race after {y}</SectionTitle>
+        <Card className="!p-0">
+          <div className="table-wrap">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="border-b border-border text-left text-xs uppercase tracking-wide text-ink-muted">
+                  <th className="px-3 py-2 font-medium">#</th>
+                  <th className="px-3 py-2 font-medium">Manager</th>
+                  <th className="px-3 py-2 text-right font-medium">Total</th>
+                  <th className="px-3 py-2 text-right font-medium">This season</th>
+                </tr>
+              </thead>
+              <tbody>
+                {raceRows.map((r, i) => (
+                  <tr key={r.manager.id} className="border-b border-border/60 last:border-0">
+                    <td className="px-3 py-2 tabular-nums text-ink-muted">{i + 1}</td>
+                    <td className="px-3 py-2 font-medium">
+                      <ManagerLink id={r.manager.id} name={r.manager.name} />
+                    </td>
+                    <td className="px-3 py-2 text-right tabular-nums font-medium">{r.total}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-ink-muted">
+                      {r.thisSeason > 0 ? `+${r.thisSeason}` : "—"}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </Card>
+        <p className="mt-2 text-xs text-ink-muted">
+          <Link href="/legends" className="hover:text-turf">
+            Full all-time race →
+          </Link>
+        </p>
+      </section>
     </div>
   );
 }
 
-function PodiumCard({
-  place,
-  manager,
+function Stat({
+  label,
+  value,
+  sub,
   accent,
 }: {
-  place: string;
-  manager: string | null | undefined;
+  label: string;
+  value: string;
+  sub?: string;
   accent?: boolean;
 }) {
   return (
     <div
-      className={`rounded-lg border p-4 ${
-        accent ? "border-gold/40 bg-gold/10" : "border-border bg-paper-elevated"
+      className={`rounded-lg border p-3 ${
+        accent ? "border-turf/40 bg-turf/10" : "border-border bg-paper-elevated"
       }`}
     >
-      <div className="text-xs uppercase tracking-wide text-ink-muted">{place}</div>
-      <div className={`display mt-1 text-xl ${accent ? "text-gold" : "text-ink"}`}>
-        {manager ? <ManagerLink id={manager} name={managerName(manager)} /> : "—"}
-      </div>
+      <div className="text-[11px] uppercase tracking-wide text-ink-muted">{label}</div>
+      <div className={`display mt-1 text-lg ${accent ? "text-turf" : "text-ink"}`}>{value}</div>
+      {sub && <div className="text-xs text-ink-muted">{sub}</div>}
     </div>
   );
 }

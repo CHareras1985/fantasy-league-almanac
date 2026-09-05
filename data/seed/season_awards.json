@@ -11,7 +11,8 @@
       "most_points": true,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": true
+      "longest_streak": true,
+      "streak_length": 8.0
     }
   },
   {
@@ -26,7 +27,8 @@
       "most_points": false,
       "mvp_pick": true,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -41,7 +43,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -56,7 +59,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -71,7 +75,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -86,7 +91,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -101,7 +107,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": true,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -116,7 +123,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -131,7 +139,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -146,7 +155,8 @@
       "most_points": true,
       "mvp_pick": true,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -161,7 +171,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": true
+      "longest_streak": true,
+      "streak_length": 7.0
     }
   },
   {
@@ -176,7 +187,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -191,7 +203,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -206,7 +219,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": true,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -221,7 +235,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -236,7 +251,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -251,7 +267,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -266,7 +283,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -281,7 +299,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": true,
-      "longest_streak": true
+      "longest_streak": true,
+      "streak_length": 8.0
     }
   },
   {
@@ -296,7 +315,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -311,7 +331,8 @@
       "most_points": true,
       "mvp_pick": true,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -326,7 +347,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -341,7 +363,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -356,7 +379,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -371,7 +395,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -386,7 +411,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -401,7 +427,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -416,7 +443,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -431,7 +459,8 @@
       "most_points": true,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": true
+      "longest_streak": true,
+      "streak_length": 6.0
     }
   },
   {
@@ -446,7 +475,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": true,
-      "longest_streak": true
+      "longest_streak": true,
+      "streak_length": 6.0
     }
   },
   {
@@ -461,7 +491,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -476,7 +507,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -491,7 +523,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -506,7 +539,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -521,7 +555,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -536,7 +571,8 @@
       "most_points": false,
       "mvp_pick": true,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -551,7 +587,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -566,7 +603,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -581,7 +619,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": true
+      "longest_streak": true,
+      "streak_length": 6.0
     }
   },
   {
@@ -596,7 +635,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -611,7 +651,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -626,7 +667,8 @@
       "most_points": true,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -641,7 +683,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -656,7 +699,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": true,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -671,7 +715,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -686,7 +731,8 @@
       "most_points": false,
       "mvp_pick": true,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -701,7 +747,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -716,7 +763,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -731,7 +779,8 @@
       "most_points": true,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -746,7 +795,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -761,7 +811,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": true
+      "longest_streak": true,
+      "streak_length": 8.0
     }
   },
   {
@@ -776,7 +827,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -791,7 +843,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -806,7 +859,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -821,7 +875,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -836,7 +891,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -851,7 +907,8 @@
       "most_points": false,
       "mvp_pick": true,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -866,7 +923,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": true,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -881,7 +939,8 @@
       "most_points": true,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": true
+      "longest_streak": true,
+      "streak_length": 7.0
     }
   },
   {
@@ -896,7 +955,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -911,7 +971,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -926,7 +987,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -941,7 +1003,8 @@
       "most_points": false,
       "mvp_pick": true,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -956,7 +1019,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -971,7 +1035,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -986,7 +1051,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": true,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1001,7 +1067,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1016,7 +1083,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1031,7 +1099,8 @@
       "most_points": true,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": true
+      "longest_streak": true,
+      "streak_length": 6.0
     }
   },
   {
@@ -1046,7 +1115,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": true
+      "longest_streak": true,
+      "streak_length": 6.0
     }
   },
   {
@@ -1061,7 +1131,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1076,7 +1147,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1091,7 +1163,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1106,7 +1179,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": true,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1121,7 +1195,8 @@
       "most_points": false,
       "mvp_pick": true,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1136,7 +1211,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1151,7 +1227,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1166,7 +1243,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1181,7 +1259,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1196,7 +1275,8 @@
       "most_points": true,
       "mvp_pick": false,
       "best_transaction": true,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1211,7 +1291,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1226,7 +1307,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1241,7 +1323,8 @@
       "most_points": false,
       "mvp_pick": true,
       "best_transaction": false,
-      "longest_streak": true
+      "longest_streak": true,
+      "streak_length": 4.0
     }
   },
   {
@@ -1256,7 +1339,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1271,7 +1355,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1286,7 +1371,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1301,7 +1387,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1316,7 +1403,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1331,7 +1419,8 @@
       "most_points": true,
       "mvp_pick": true,
       "best_transaction": false,
-      "longest_streak": true
+      "longest_streak": true,
+      "streak_length": 7.0
     }
   },
   {
@@ -1346,7 +1435,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": true,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1361,7 +1451,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1376,7 +1467,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1391,7 +1483,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1406,7 +1499,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1421,7 +1515,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1436,7 +1531,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1451,7 +1547,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1466,7 +1563,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1481,7 +1579,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": true,
-      "longest_streak": true
+      "longest_streak": true,
+      "streak_length": 11.0
     }
   },
   {
@@ -1496,7 +1595,8 @@
       "most_points": true,
       "mvp_pick": true,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1511,7 +1611,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1526,7 +1627,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1541,7 +1643,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1556,7 +1659,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1571,7 +1675,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1586,7 +1691,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1601,7 +1707,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1616,7 +1723,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1631,7 +1739,8 @@
       "most_points": true,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": true
+      "longest_streak": true,
+      "streak_length": 11.0
     }
   },
   {
@@ -1646,7 +1755,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1661,7 +1771,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1676,7 +1787,8 @@
       "most_points": false,
       "mvp_pick": true,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1691,7 +1803,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1706,7 +1819,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1721,7 +1835,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": true,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1736,7 +1851,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1751,7 +1867,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1766,7 +1883,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1781,7 +1899,8 @@
       "most_points": true,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1796,7 +1915,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": true,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1811,7 +1931,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1826,7 +1947,8 @@
       "most_points": false,
       "mvp_pick": true,
       "best_transaction": false,
-      "longest_streak": true
+      "longest_streak": true,
+      "streak_length": 6.0
     }
   },
   {
@@ -1841,7 +1963,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1856,7 +1979,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1871,7 +1995,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1886,7 +2011,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1901,7 +2027,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   },
   {
@@ -1916,7 +2043,8 @@
       "most_points": false,
       "mvp_pick": false,
       "best_transaction": false,
-      "longest_streak": false
+      "longest_streak": false,
+      "streak_length": null
     }
   }
 ]

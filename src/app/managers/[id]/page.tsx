@@ -45,6 +45,48 @@ export default async function ManagerPage({ params }: PageProps<"/managers/[id]"
         <Stat label="Win %" value={fmtPct(d.totals.pct)} />
       </section>
 
+      {(() => {
+        const titleYears = d.rows
+          .filter((r) => r.playoff_finish === "champion")
+          .map((r) => r.year);
+        const bestSeason = [...d.rows].sort((a, b) => b.award_points - a.award_points)[0];
+        const sigPick = [...d.bestPicks].sort(
+          (a, b) => (b.player_points ?? 0) - (a.player_points ?? 0),
+        )[0];
+        return (
+          <Card>
+            <SectionTitle>Career highlights</SectionTitle>
+            <ul className="space-y-1.5 text-sm">
+              <li className="flex flex-wrap justify-between gap-x-3">
+                <span className="text-ink-muted">Championships</span>
+                <span className="font-medium">
+                  {titleYears.length ? titleYears.join(", ") : "None"}
+                </span>
+              </li>
+              {bestSeason && bestSeason.award_points > 0 && (
+                <li className="flex flex-wrap justify-between gap-x-3">
+                  <span className="text-ink-muted">Best season</span>
+                  <span className="font-medium">
+                    {bestSeason.award_points} award pts ·{" "}
+                    <Link href={`/seasons/${bestSeason.year}`} className="hover:text-turf">
+                      {bestSeason.year}
+                    </Link>
+                  </span>
+                </li>
+              )}
+              {sigPick?.player && (
+                <li className="flex flex-wrap justify-between gap-x-3">
+                  <span className="text-ink-muted">Signature draft pick</span>
+                  <span className="font-medium">
+                    {sigPick.player} · {fmtPts(sigPick.player_points, 0)} pts · {sigPick.season}
+                  </span>
+                </li>
+              )}
+            </ul>
+          </Card>
+        );
+      })()}
+
       <section>
         <SectionTitle>Season by season</SectionTitle>
         <Card className="!p-0">

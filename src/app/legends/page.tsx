@@ -2,11 +2,13 @@ import type { Metadata } from "next";
 import {
   awardRace,
   careerRecords,
+  raceProgression,
   seasons,
   seasonDetail,
   managerName,
 } from "@/lib/data";
 import { PageHeading, Card, SectionTitle, ManagerLink } from "@/components/ui";
+import { Sparkline } from "@/components/Sparkline";
 
 export const metadata: Metadata = { title: "All-Time" };
 
@@ -14,6 +16,9 @@ export default function LegendsPage() {
   const race = awardRace();
   const records = careerRecords();
   const byPct = [...records].sort((a, b) => b.pct - a.pct);
+
+  const prog = raceProgression();
+  const progMax = Math.max(...prog.series.flatMap((s) => s.cumulative));
 
   const champs = [...seasons]
     .reverse()
@@ -64,6 +69,42 @@ export default function LegendsPage() {
             </table>
           </div>
         </Card>
+      </section>
+
+      <section>
+        <SectionTitle>Race progression — {prog.years[0]}–{prog.years[prog.years.length - 1]}</SectionTitle>
+        <Card className="!p-0">
+          <div className="table-wrap">
+            <table className="w-full text-sm">
+              <tbody>
+                {prog.series
+                  .filter((s) => s.cumulative[s.cumulative.length - 1] > 0)
+                  .map((s) => (
+                    <tr key={s.manager.id} className="border-b border-border/60 last:border-0">
+                      <td className="whitespace-nowrap px-3 py-2 font-medium">
+                        <ManagerLink id={s.manager.id} name={s.manager.name} />
+                      </td>
+                      <td className="w-full px-3 py-2 text-turf">
+                        <Sparkline
+                          values={s.cumulative}
+                          max={progMax}
+                          width={220}
+                          className="w-full max-w-[240px]"
+                        />
+                      </td>
+                      <td className="px-3 py-2 text-right tabular-nums font-medium">
+                        {s.cumulative[s.cumulative.length - 1]}
+                      </td>
+                    </tr>
+                  ))}
+              </tbody>
+            </table>
+          </div>
+        </Card>
+        <p className="mt-2 text-xs text-ink-muted">
+          Cumulative award points after each season, {prog.years[0]} at left to{" "}
+          {prog.years[prog.years.length - 1]} at right.
+        </p>
       </section>
 
       <section>

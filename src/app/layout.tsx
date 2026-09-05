@@ -23,6 +23,7 @@ const NAV = [
   { href: "/", label: "Home" },
   { href: "/seasons", label: "Seasons" },
   { href: "/managers", label: "Managers" },
+  { href: "/records", label: "Records" },
   { href: "/legends", label: "All-Time" },
 ];
 
