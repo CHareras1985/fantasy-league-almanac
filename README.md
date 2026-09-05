@@ -8,11 +8,23 @@ and data model (that doc will move here once this repo is the home of record).
 
 ## Status
 
+- **Web app: v1 up.** Next.js 16 static site over `data/seed/`. Run `npm run dev`
+  (port 3000). Pages: home / all-time Legends race, `/seasons` + `/seasons/[year]`,
+  `/managers` + `/managers/[id]`, `/legends`. Every route is prerendered — no
+  database, deploy-ready for Vercel (connect the repo, framework auto-detects).
 - **2009–2021 history: reconciled and seeded.** See `data/seed/` — the corrected,
   name-normalized league history, generated from the Google Sheet export.
 - **2022–2025: blocked on Yahoo API approval.** Yahoo now gates Fantasy Sports API
   access behind a manual application (see below) rather than a checkbox on the
-  normal app registration. Submitted; awaiting review.
+  normal app registration. Submitted; awaiting review (up to ~2 weeks).
+
+## Running the app
+
+```bash
+npm install
+npm run dev      # http://localhost:3000
+npm run build    # static export check — all routes prerender
+```
 
 ## Seed data (2009–2021)
 
